@@ -17,8 +17,8 @@
 				<h1><img src="public/images/logo.png" alt="Bartulos Bazar"></h1>
 				<ul>
 					<li><span>HOME</span></li>
-					<li><a href="#">EMPRESA</a></li>
-					<li><a href="#">PRODUCTOS</a></li>
+					<li><a href="empresa.php">EMPRESA</a></li>
+					<li><a href="productos.php">PRODUCTOS</a></li>
 					<li><a href="#">NOVEDADES</a></li>
 					<li><a href="#">CONTACTO</a></li>
 				</ul>
