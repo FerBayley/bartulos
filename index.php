@@ -29,7 +29,7 @@
 							<img src="public/images/facebook.png" alt="Facebook">
 						</a></li>
 						<li><a href="#">
-							<img src="public/images/Instagram.png" alt="Instagram">
+							<img src="public/images/instagram.png" alt="Instagram">
 						</a></li>
 					</ul>
 				</div> <!-- /Redes -->
