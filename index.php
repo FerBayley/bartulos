@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bartulos Bazar</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<link rel="stylesheet" href="public/css/normalize.css" />
 	<link rel="stylesheet" href="public/css/main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
