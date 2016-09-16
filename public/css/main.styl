@@ -7,6 +7,7 @@ body
 	font-size 16px
 	height 100%
 footer
+	background-color #FFF
 	height auto
 	margin 2em 0 0 0
 	padding 2em 0 4em 0
@@ -59,7 +60,6 @@ footer
 				color #999999
 				text-decoration none
 header
-	background-color red
 	height 100%
 	margin 0 auto
 	margin-bottom 60px
@@ -125,12 +125,33 @@ header
 			text-transform uppercase
 			font-size .9em
 			margin .5em 0 3em 0
+.Cuadro
+	background-color rgba(183, 53, 0, .8)
+	height 150px
+	margin 6.3em 0 0 0
+	padding 0 1em 0 1em
+	width auto
+	&-titulo
+		color #FFF
+		border-bottom dashed 1px #FFF
+		font-family 'Quicksand', sans-serif
+		font-size 1.2em
+		text-align left
+		line-height 1.2em
+		padding .8em 1em .5em 0
+	&-subtitulo
+		color #FFF
+		font-family 'Quicksand', sans-serif
+		font-size 1em
+		text-align left
+		padding .5em 1em .5em 0
+		line-height 1.5em
 .Descripcion-empresa
 	font-family 'Biryani', sans-serif
 	font-size 1.8em
 	margin 0 auto
 	margin-bottom 3em
-	margin-top 1em
+	margin-top 2em
 	max-width 950px
 	text-align justify
 	width 100%
@@ -140,36 +161,44 @@ header
 		span
 			color #B73500
 .Destacados
-	background-color #FFF
 	height auto
 	text-align center
 	margin 0 auto
 	max-width 1100px
 	width 100%
 	.Imagen-1
-		background-image url('../../public/images/destacado1.png')
+		background-image url('../../public/images/destacados/destacado1.png')
 		display inline-block
 		margin 0 .3em 0 .3em
 		vertical-align top
+		height 251px
+		width 254px
 	.Imagen-2
+		background-image url('../../public/images/destacados/destacado2.png')
 		display inline-block
 		margin 0 .3em 0 .3em
 		vertical-align top
+		height 251px
+		width 254px
 	.Imagen-3
+		background-image url('../../public/images/destacados/destacado3.png')
 		display inline-block
 		margin 0 .3em 0 .3em
 		vertical-align top
+		height 251px
+		width 254px
 	.Imagen-4
+		background-image url('../../public/images/destacados/destacado4.png')
 		display inline-block
 		margin 0 .3em 0 .3em
 		vertical-align top
+		height 251px
+		width 254px
 .Imagen-principalEmpresa
-	background-image url("../../public/images/img-empresa.png")
-	background-repeat no-repeat
-	background-position center
-	background-size cover
-	height 400px
-	margin -4em 0 0 0
+	height auto
+	margin 0 0 1em 0
+	text-align center
+	width 100%
 	
 .Interno
 	height auto
@@ -218,15 +247,37 @@ header
 	margin-bottom 5em
 	max-width 1000px
 	width 100%
+	&-titulo
+		color #b73500
+		font-family 'Quicksand', sans-serif
+		font-size 1.3em
+		font-weight bold
+	&-mini
+		color #655752
+		font-family 'Biryani', sans-serif
+		font-size .8em
+	&-coltitulo
+		height auto
+		display inline-block
+		vertical-align middle
+		width 39%
+	&-colpuntos
+		display inline-block
+		height auto
+		vertical-align middle
+		width 60%
 	&-1
 		display inline-block
-		margin 0 2em 0 0
+		height auto
+		margin -3em 2em 0 0
 		vertical-align top
-		width auto
+		width 30%
 	&-2
 		display inline-block
+		height auto
+		margin -4.3em 0 0 0
 		vertical-align top
-		width 45%
+		width 65%
 		article p 
 			font-family 'Biryani', sans-serif
 			font-size .8em
@@ -242,7 +293,6 @@ header
 	
 .Menu
 	display inline-block
-	background-color green
 	height 100%
 	margin 0 1em 0 5em 
 	padding 2em
@@ -362,17 +412,17 @@ header
 		vertical-align middle
 		width 10%
 	&-descripcion
-		background-image url("../../public/images/fondo.png")
-		background-repeat no-repeat
-		background-position center
-		height 267px
+		background-color #F4E5DF
+		border-radius 5px 5px 5px 5px
+		height auto
 		display inline-block
+		margin 0 0 0 4em
 		vertical-align middle
-		width 60%
+		width 55%
 		article
 			line-height 2em
-			margin 3em 0 0 0
-			padding 0 4em 0 7em
+			margin 1em 0 1.5em 1em
+			padding 0 1em 0 2em
 			text-align left
 			p
 				color #655752
@@ -399,15 +449,29 @@ header
 				-o-transition all 0.5s ease-in
 				transition all 0.5s ease-in
 .Slider
-	background-color orange
 	display inline-block
 	vertical-align top
 	width auto
+.Sombra
+	height auto
+	margin -1.5em 0 2em 0
+	width 100%
+	img
+		height auto
+		width 100%
 .Titulo
 	font-family 'Quicksand', sans-serif
 	font-size 1.2em
 	margin 0 0 50px 0
 	text-align center
+	&-productos
+		font-family 'Quicksand', sans-serif
+		font-size 1em
+		margin 5em 0 3em 0
+		text-align center
+		h3
+			color #655752
+			font-size 1em
 	h3
 		color #655752
 		font-family 'Biryani', sans-serif
@@ -602,7 +666,339 @@ header
 	text-align center
 	width 100%
 	
-
+.Sec1
+	display inline-block
+	vertical-align middle
+.Sec2
+	display inline-block
+	vertical-align middle
+.Novedades
+	box-sizing border-box
+	height auto
+	margin 4em 0 2em 0
+	text-align center
+	width 100%
+	&-1
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align top
+		width 15%
+		a
+			color #322D2B
+			font-size .7em
+			text-align left
+			text-decoration none
+		h2
+			color #B73500
+			font-family 'Biryani', sans-serif
+			font-size .9em
+			margin 0 0 .3em 0
+			text-align left
+		ul li
+			list-style none
+			margin 0 0 .4em .5em
+			text-align left
+	.Oferta
+		color #FFF
+		background-color #B73500
+		border-radius 4px 4px 4px 4px
+		font-size .8em
+		margin-top 1em
+		padding .3em 0 0 0
+		text-align center
+		width 60%
+	.Punteado
+		border-bottom dashed 1px #333
+		height auto
+		margin 0 0 1em 0
+		padding .5em 0 .5em 0
+		width 80%
+	&-2
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align top
+		width 25%
+		a
+			color #FFF
+			font-size .8em
+			background-color #b73500
+			border-radius 4px 4px 4px 4px
+			padding .5em 1em .5em 1em
+			text-decoration none
+		h2
+			color #655752
+			font-family 'Biryani', sans-serif
+			font-size .9em
+			padding 0 .5em 0 .5em
+			line-height 1.5em
+			margin .5em 0 0 0
+		p
+			font-size .8em
+			line-height 1.5em
+			margin 0 0 1em 0
+			padding 0 3.5em 0 3.5em
+	&-3
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align top
+		width 25%
+		a
+			color #FFF
+			font-size .8em
+			background-color #b73500
+			border-radius 4px 4px 4px 4px
+			padding .5em 1em .5em 1em
+			text-decoration none
+		h2
+			color #655752
+			font-family 'Biryani', sans-serif
+			font-size .9em
+			padding 0 .5em 0 .5em
+			line-height 1.5em
+			margin .5em 0 0 0
+		p
+			font-size .8em
+			line-height 1.5em
+			margin 0 0 1em 0
+			padding 0 3.5em 0 3.5em
+	&-4
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align top
+		width 25%
+		a
+			color #FFF
+			font-size .8em
+			background-color #b73500
+			border-radius 4px 4px 4px 4px
+			padding .5em 1em .4em 1em
+			text-decoration none
+		h2
+			color #655752
+			font-family 'Biryani', sans-serif
+			font-size .9em
+			padding 0 .5em 0 .5em
+			line-height 1.5em
+			margin .5em 0 0 0
+		p
+			font-size .8em
+			line-height 1.5em
+			margin 0 0 1em 0
+			padding 0 3.5em 0 3.5em
+	.ColumnaPresupuestador
+		box-sizing border-box
+		height auto
+		display inline-block
+		text-align left
+		padding 0 0 0 5em
+		vertical-align top
+		width 40%
+		img 
+			padding 1em 0 .5em 0
+		&-texto
+			color #655752
+			font-size .7em
+			padding .5em 0 0 0
+	.ColumnaPresupuestador2
+		height auto
+		display inline-block
+		text-align left
+		vertical-align top
+		width 40%
+		a
+			background-color #B73500
+			border-radius 3px
+			color #FFF
+			font-size .8em
+			text-decoration none
+			padding .7em .5em .5em .7em
+		h2
+			color #655752
+			font-family 'Biryani', sans-serif
+			font-weight 100
+			font-size 1.9em
+			margin .5em 0 0 0
+		h3
+			color #655752
+			font-family 'Biryani', sans-serif
+			font-size .8em
+			margin 0 0 4em 0
+		ul
+			font-size .8em
+		ul li
+			background-color #BCDE78
+			border-radius .2em .2em .2em .2em
+			color #655752
+			display inline-block
+			padding .2em 0 .2em 0
+			margin 0 .2em .5em .2em
+			text-align center
+			vertical-align middle
+			width 17%
+		.Linea
+			border-bottom dashed 1px grey
+			height auto
+			margin 1em 0 1em 0
+			width 40%
+//.Copas
+//	margin 1em 0 0 0
+	
+.Form2
+	background-color #655752
+	height 300px
+	width 100%
+	h2
+		color #FFF
+		font-weight 100
+.Footerbartulos
+	background-color blue
+	background-image url('../../public/images/footer-bartulos.jpg')
+	background-repeat no-repeat
+	background-size cover
+	-webkit-background-size cover
+	-moz-background-size cover
+	-o-background-size cover
+	-ms-background-size cover
+	height 95px
+.Agregar
+	background-color #B73500
+	border-radius .3em .3em .3em .3em
+	color #FFF
+	height auto
+	padding .7em .7em .7em .7em
+	text-align center
+	width 50%
+.Relacionados
+	height auto
+	margin -1.5em 0 3em 0
+	text-align center
+	width auto
+	&-1
+		color #655752
+		font-size .8em
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align middle
+		width 22%
+		a
+			background-color #B73500
+			border-radius .3em .3em .3em .3em
+			color #FFF
+			padding .5em 1em .5em 1em
+			text-decoration none
+		p
+			margin 0 0 1.5em 0
+	&-2
+		color #655752
+		font-size .8em
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align middle
+		width 22%
+		a
+			background-color #B73500
+			border-radius .3em .3em .3em .3em
+			color #FFF
+			padding .5em 1em .5em 1em
+			text-decoration none
+		p
+			margin 0 0 1.5em 0
+	&-3
+		color #655752
+		font-size .8em
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align middle
+		width 22%
+		a
+			background-color #B73500
+			border-radius .3em .3em .3em .3em
+			color #FFF
+			padding .5em 1em .5em 1em
+			text-decoration none
+		p
+			margin 0 0 1.5em 0
+	&-4
+		color #655752
+		font-size .8em
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align middle
+		width 22%
+		a
+			background-color #B73500
+			border-radius .3em .3em .3em .3em
+			color #FFF
+			padding .5em 1em .5em 1em
+			text-decoration none
+		p
+			margin 0 0 1.5em 0
+.Closer
+	height auto
+	margin 0 0 2em 0
+	padding .5em 0 1em 0
+.PresupuestoFinal
+	background-color #FFF
+.Presupuesto4
+	height auto
+	width 100%
+	&-col1
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align top
+		width 25%
+	&-col2
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		text-align left
+		vertical-align top
+		width 30%
+		h2
+			color #655752
+			font-family 'Biryani', sans-serif				
+			font-size 2em
+			font-weight 100
+		h6
+			color #655752
+			font-family 'Biryani', sans-serif			
+			font-size .8em
+		p
+			color #655752
+			font-family 'Biryani', sans-serif			
+			font-size 1em			
+	&-col3
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align top
+		width 10%
+	&-col4
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		text-align left
+		vertical-align top
+		width 25%
+		h6
+			margin 0 0 2em 0
+		p
+			color #655752
+			font-size .8em
+			font-family 'Biryani', sans-serif	
+.FormualarioDeContacto
+	background-color #FBFBFC
+	text-align center
+		
 
 
 

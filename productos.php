@@ -32,6 +32,9 @@
 			</div> <!-- / Interno-2 -->
 		</header> <!-- / Interno -->
 
+		<section class="Sombra">
+			<img src="public/images/sombrabotonera.png" alt="Sombra">
+		</section> <!-- / Sombra -->
 
 		<section class="Productos">
 			<h2>Nuestros productos.</h2>
@@ -84,7 +87,8 @@
 			</div><!-- / Promos-2 -->
 		</section> <!-- / Promos -->
 
-		
+	<?php include("includes/presupuestar.php"); ?>
+
 	<?php include("includes/path.php"); ?>
 	
 	<?php include("includes/footer.php"); ?>

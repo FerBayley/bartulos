@@ -54,16 +54,28 @@
 			</div> <!-- / Titulo -->
 			
 			<div class="Imagen-1">
-				<img src="public/images/destacados/destacado1.png" width="254px" height="251px" alt="Imagen destacada">
+				<div class="Cuadro">
+					<h2 class="Cuadro-titulo">¡NUEVAS OLLAS Y CACEROLAS</h2>
+					<h3 class="Cuadro-subtitulo">Mirá nuestros productos en rebaja. SALE OUT!</h3>
+				</div> <!-- / Cuadro -->
 			</div> <!--/ Imagen-1 -->
 			<div class="Imagen-2">
-				<img src="public/images/destacados/destacado2.png" width="254px" height="251px" alt="Imagen destacada">
+				<div class="Cuadro">
+					<h2 class="Cuadro-titulo">CATÁLOGO ONLINE</h2>
+					<h3 class="Cuadro-subtitulo">Accedé ahora a nuestro catálogo completo de productos.</h3>
+				</div> <!-- / Cuadro -->
 			</div> <!--/ Imagen-2 -->
 			<div class="Imagen-3">
-				<img src="public/images/destacados/destacado3.png" width="254px" height="251px" alt="Imagen destacada">
+				<div class="Cuadro">
+					<h2 class="Cuadro-titulo">DESCUENTOS</h2>
+					<h3 class="Cuadro-subtitulo">Mirá nuestros productos en rebaja. SALE OUT!</h3>
+				</div> <!-- / Cuadro -->
 			</div> <!--/ Imagen-3 -->
 			<div class="Imagen-4">
-				<img src="public/images/destacados/destacado4.png" width="254px" height="251px" alt="Imagen destacada">
+				<div class="Cuadro">
+					<h2 class="Cuadro-titulo">TRABAJO DESTACADO</h2>
+					<h3 class="Cuadro-subtitulo">Mirá nuestros productos en rebaja. SALE OUT!</h3>
+				</div> <!-- / Cuadro -->
 			</div> <!--/ Imagen-4 -->
 		</section> <!--/ Destacados -->
 

@@ -32,7 +32,13 @@
 			</div> <!-- / Interno-2 -->
 		</header> <!-- / Interno -->
 
-		<section class="Imagen-principalEmpresa"></section> <!-- / Imagen-principalEmpresa -->
+		<section class="Sombra">
+			<img src="public/images/sombrabotonera.png" alt="Sombra">
+		</section> <!-- / Sombra -->
+
+		<section class="Imagen-principalEmpresa">
+			<img src="public/images/img-empresa.png" alt="">
+		</section> <!-- / Imagen-principalEmpresa -->
 
 		<section class="Descripcion-empresa">
 			<article>
@@ -61,36 +67,6 @@
 				</article>
 			</div> <!-- / More-2 -->
 		</section> <!-- / More -->
-
-		<div class="Titulo">
-			<div class="Titulo-col1Interno"></div> <!-- / Titulo-col1 -->
-			<div class="Titulo-col2Interno">
-				<h2>EQUIPAMIENTO Y ASESORAMIENTO GASTRONÓMICO</h2>
-				<br>
-				<h3>Inoxigas</h3>
-			</div> <!-- / Titulo-col2 -->
-			<div class="Titulo-col3Interno"></div> <!-- / Titulo-col2 -->
-		</div> <!-- / Titulo -->
-
-		
-		<section class="Inoxigas">
-			<div class="Inoxigas-1">
-				<img src="public/images/inoxihand.png" alt="Inoxigas">
-			</div> <!-- / Inoxigas-1 -->
-
-			<div class="Inoxigas-2">
-				<img src="public/images/logo-biginterno.png" alt="Inoxigas">
-				<article>
-					<p>
-						Brindamos un servicio de asesoramiento para que usted pueda comprar el equipamiento adecuado a la necesidad del proyecto, entendiendo como se usa el producto debido a nuestra experiencia en la utilización y aplicación de los mismos.
-					</p>
-					<p>
-						Vix vulputate adolescens ut. Has et tota populo, vel te nonumes aliquando. Per doming fierent repudiandae eu, pro et populo quidam.
-					</p>
-				</article>
-				<a href="#">INOXIGAS.COM.AR</a>
-			</div> <!-- / Inoxigas-2 -->
-		</section> <!-- / Inoxigas-empresa -->
 
 		<div class="Titulo">
 			<div class="Titulo-col1Interno"></div> <!-- / Titulo-col1 -->
@@ -147,6 +123,35 @@
 				<h3>Cliente 1</h3>
 			</div> <!-- / Clientes-4 -->
 		</section> <!-- / Clientes -->
+
+		<section class="Inoxigas">
+			<div class="Inoxigas-coltitulo">
+				<h2 class="Inoxigas-titulo">ALIANZA ESTRATÉGICA</h2>
+				<p class="Inoxigas-mini">Inoxigas: equipamiento y asesoramiento gastronómico</p>
+			</div> <!-- / Inoxigas-coltitulo -->
+
+			<div class="Inoxigas-colpuntos">
+				<p>......................................................................................................................................</p>
+			</div> <!-- / Inoxigas-coltitulo -->
+		</section> <!-- / Inoxigas -->
+		
+		<section class="Inoxigas">
+			<div class="Inoxigas-1">
+				<img src="public/images/logo-biginterno.jpg" height="159px" width="291px" alt="Inoxigas">
+			</div> <!-- / Inoxigas-1 -->
+
+			<div class="Inoxigas-2">
+				<article>
+					<p>
+						Brindamos un servicio de asesoramiento para que usted pueda comprar el equipamiento adecuado a la necesidad del proyecto, entendiendo como se usa el producto debido a nuestra experiencia en la utilización y aplicación de los mismos.
+					</p>
+					<p>
+						Vix vulputate adolescens ut. Has et tota populo, vel te nonumes aliquando. Per doming fierent repudiandae eu, pro et populo quidam.
+					</p>
+				</article>
+				<a href="#">INOXIGAS.COM.AR</a>
+			</div> <!-- / Inoxigas-2 -->
+		</section> <!-- / Inoxigas-empresa -->
 
 	<?php include("includes/path.php"); ?>
 	
