@@ -77,13 +77,13 @@
 
 		<div class="Novedades-2">			
 			<div class="Closer">
-				<img src="public/images/acero1.jpg" alt="">
+				<img src="public/images/ecommerce/p-27.jpg" width="256px" height="180px" alt="">
 				<p>CHAFING BAÑO MARÍA RECTANGULAR DOBLE </br> con Tapa Rebatible Capacidad: 8000 cc</p>
 				<a href="#">AGREGAR AL PEDIDO</a>
 			</div> <!-- / Closer -->
 
 			<div class="Closer">
-				<img src="public/images/acero1.jpg" alt="">
+				<img src="public/images/ecommerce/p-29.jpg" width="256px" height="180px" alt="">
 				<p>CHAFING BAÑO MARÍA RECTANGULAR DOBLE </br> con Tapa Rebatible Capacidad: 8000 cc</p>
 				<a href="#">AGREGAR AL PEDIDO</a>
 			</div> <!-- / Closer -->
@@ -91,13 +91,13 @@
 
 		<div class="Novedades-3">
 			<div class="Closer">
-				<img src="public/images/acero1.jpg" alt="">
+				<img src="public/images/ecommerce/p-42.jpg" width="256px" height="180px" alt="">
 				<p>CHAFING BAÑO MARÍA RECTANGULAR DOBLE </br>con Tapa Rebatible Capacidad: 8000 cc</p>
 				<a href="#">AGREGAR AL PEDIDO</a>
 			</div> <!-- / Closer -->
 
 			<div class="Closer">
-				<img src="public/images/acero1.jpg" alt="">
+				<img src="public/images/ecommerce/p-43.jpg" width="256px" height="180px" alt=""
 				<p>CHAFING BAÑO MARÍA RECTANGULAR DOBLE </br> con Tapa Rebatible Capacidad: 8000 cc</p>
 				<a href="#">AGREGAR AL PEDIDO</a>
 			</div> <!-- / Closer -->
