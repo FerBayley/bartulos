@@ -16,16 +16,23 @@
 	<section class="Container">
 		
 		<header>
+		<h1><img src="public/images/logo.png" alt="Bartulos Bazar"></h1>
+		<span class="Burguer">MENU</span>
 			<section class="Menu">
-				<h1><img src="public/images/logo.png" alt="Bartulos Bazar"></h1>
+				<ul>
+					<li><span>HOME</span></li>
+					<li><a href="empresa.php">EMPRESA</a></li>
+					<li><a href="productos.php">PRODUCTOS</a></li>
+					<li><a href="#">NOVEDADES</a></li>
+					<li><a href="#">CONTACTO</a></li>
+				</ul>
 			</section> <!--/ Menu -->
 
 			<section class="Slider">
 				<img src="public/images/slider/img-1.png" alt="Sarten modelo tal por cual">
 			</section> <!--/Slider -->
-			<!-- ACA VA EL MENU PRINCIPL -->
+			
 		</header> <!--/ header -->
-
 
 		<section class="Destacados">
 			<div class="Titulo">
@@ -120,7 +127,7 @@
 		</section> <!-- / Imagen-separador -->
 
 		<section class="Urgencias">
-			<img src="public/images/Urgencias.jpg" alt="">
+			<img src="public/images/urgencias.jpg" alt="">
 		</section> <!-- / Urgencias -->
 	
 		<?php include("includes/footer.php"); ?>
@@ -134,8 +141,6 @@
 			$Desplegable.classList.toggle('active')
 		});
 		//$Desplegable.classList.toggle('active')
-
-
 	</script>
 </body>
 </html>
