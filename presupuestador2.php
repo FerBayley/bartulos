@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bartulos Bazar - Presupuestador 2</title>
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<!-- VIEWPORT -->
 	<link rel="stylesheet" href="public/css/normalize.css" />
 	<link rel="stylesheet" href="public/css/main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">

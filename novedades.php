@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bartulos Bazar - Novedades</title>
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<!-- VIEWPORT -->
 	<link rel="stylesheet" href="public/css/normalize.css" />
 	<link rel="stylesheet" href="public/css/main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
@@ -15,19 +18,7 @@
 			<div class="Interno-1">
 				<img src="public/images/logo-interno.png" alt="">
 			</div> <!-- / Interno-1 -->
-			<div class="Interno-2">
-				<div class="Menu-Interno">
-					<ul>
-						<li><a href="#">HOME</a></li>
-						<li><a href="#">EMPRESA</a></li>
-						<li><a href="#">PRODUCTOS</a></li>
-						<li><a href="#"><span>NOVEDADES</span></a></li>
-						<li><a href="#">CONTACTO</a></li>
-						<li class="Mini"><a href="#"><img src="public/images/facebook-header.png" alt="Facebook"></a></li>
-						<li class="Mini"><a href="#"><li><a href="#"><img src="public/images/instagram-header.png" alt="Instagram"></a></li></a></li>
-					</ul>
-				</div> <!-- / Menu-Interno -->
-			</div> <!-- / Interno-2 -->
+			<!-- ACA VA EL MENNU INTERNO -->
 		</header> <!-- / Interno -->
 
 		<section class="Sombra">
@@ -123,6 +114,7 @@
 	</section>	
 
 	<section class="Footerbartulos"></section>	
+	
 	<?php include("includes/footer.php"); ?>
 
 	</section> <!--/Container -->

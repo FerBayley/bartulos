@@ -4,9 +4,9 @@
 	</div> <!-- /footer-col1 -->
 
 	<div class="footer-col2">
-		<p>Av. Lorem Ipsum 2056 / Buenos Aires</p>
-		<p>CP. 1480 - Tel. +54 (11) 4444 9293 |  Tel. +54 (11) 4434 9393</p>
-		<p>www.bartulosbazar.com.ar | info@bartulosbazar.com.ar</p>
+		<p>Av. Santa Fe 1643 - C.A.B.A. / Buenos Aires</p>
+		<p>CP. 1480 - Tel. +54 9 11 37 99 74 60</p>
+		<p>www.bartulosbazar.com | <a href="mailto:elina@bartulosbazar.com">elina@bartulosbazar.com</a> | <a href="mailto:ventas@bartulosbazar.com">ventas@bartulosbazar.com</a></p>
 		<br>
 		<p>&copy; Copyrigth Bartulos - Todos los derechos reservados</p>
 	</div> <!-- /footer-col1 -->
@@ -25,11 +25,8 @@
 		<ul class="Face">
 			<li>SEGUINOS</li>
 			<br>
-			<br>
 			<li><img src="public/images/facebook-footer.png" alt="Facebook Bartulos Bazar"></li>
 			<li><a href="#">bartulosbazar</a></li>
-		</ul>
-		<ul class="Insta">
 			<li><img src="public/images/instagram-footer.png" alt="Instagram Bartulos Bazar"></li>
 			<li><a href="#">@bartulosbazar</a></li>
 		</ul>

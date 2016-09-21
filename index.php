@@ -3,7 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bartulos Bazar</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<!-- VIEWPORT -->
 	<link rel="stylesheet" href="public/css/normalize.css" />
 	<link rel="stylesheet" href="public/css/main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
@@ -16,29 +18,12 @@
 		<header>
 			<section class="Menu">
 				<h1><img src="public/images/logo.png" alt="Bartulos Bazar"></h1>
-				<ul>
-					<li><span>HOME</span></li>
-					<li><a href="empresa.php">EMPRESA</a></li>
-					<li><a href="productos.php">PRODUCTOS</a></li>
-					<li><a href="#">NOVEDADES</a></li>
-					<li><a href="#">CONTACTO</a></li>
-				</ul>
-
-				<div class="Redes">
-					<ul>
-						<li><a href="#">
-							<img src="public/images/facebook.png" alt="Facebook">
-						</a></li>
-						<li><a href="#">
-							<img src="public/images/instagram.png" alt="Instagram">
-						</a></li>
-					</ul>
-				</div> <!-- /Redes -->
 			</section> <!--/ Menu -->
 
 			<section class="Slider">
 				<img src="public/images/slider/img-1.png" alt="Sarten modelo tal por cual">
 			</section> <!--/Slider -->
+			<!-- ACA VA EL MENU PRINCIPL -->
 		</header> <!--/ header -->
 
 
@@ -56,25 +41,25 @@
 			<div class="Imagen-1">
 				<div class="Cuadro">
 					<h2 class="Cuadro-titulo">¡NUEVAS OLLAS Y CACEROLAS</h2>
-					<h3 class="Cuadro-subtitulo">Mirá nuestros productos en rebaja. SALE OUT!</h3>
+					<h3 class="Cuadro-subtitulo">Contactanos</h3>
 				</div> <!-- / Cuadro -->
 			</div> <!--/ Imagen-1 -->
 			<div class="Imagen-2">
 				<div class="Cuadro">
 					<h2 class="Cuadro-titulo">CATÁLOGO ONLINE</h2>
-					<h3 class="Cuadro-subtitulo">Accedé ahora a nuestro catálogo completo de productos.</h3>
+					<h3 class="Cuadro-subtitulo">Contactanos</h3>
 				</div> <!-- / Cuadro -->
 			</div> <!--/ Imagen-2 -->
 			<div class="Imagen-3">
 				<div class="Cuadro">
 					<h2 class="Cuadro-titulo">DESCUENTOS</h2>
-					<h3 class="Cuadro-subtitulo">Mirá nuestros productos en rebaja. SALE OUT!</h3>
+					<h3 class="Cuadro-subtitulo">Contactanos</h3>
 				</div> <!-- / Cuadro -->
 			</div> <!--/ Imagen-3 -->
 			<div class="Imagen-4">
 				<div class="Cuadro">
 					<h2 class="Cuadro-titulo">TRABAJO DESTACADO</h2>
-					<h3 class="Cuadro-subtitulo">Mirá nuestros productos en rebaja. SALE OUT!</h3>
+					<h3 class="Cuadro-subtitulo">Contactanos</h3>
 				</div> <!-- / Cuadro -->
 			</div> <!--/ Imagen-4 -->
 		</section> <!--/ Destacados -->
@@ -134,53 +119,23 @@
 			<img src="public/images/puntos.jpg" alt="">
 		</section> <!-- / Imagen-separador -->
 
-
-		<section class="Urgencias"></section> <!-- / Urgencias -->
+		<section class="Urgencias">
+			<img src="public/images/Urgencias.jpg" alt="">
+		</section> <!-- / Urgencias -->
 	
-		<!--<section class="Path">
-			<div class="Path-footer"></div> <!-- /Path-footer -->
-		<!--</section> <!-- / Path-footer -->
+		<?php include("includes/footer.php"); ?>
+	</section> <!--/Container -->	
 
-		<footer>
-			<div class="footer-col1">
-				<img src="public/images/logo-footer.png" alt="Bartulos Bazar">
-			</div> <!-- /footer-col1 -->
+	<script>
+		var $Burguer = document.getElementById('MenuDesplegable');
+		var $Desplegable = document.getElementById('CloseMenu');
 
-			<div class="footer-col2">
-				<p>Av. Lorem Ipsum 2056 / Buenos Aires</p>
-				<p>CP. 1480 - Tel. +54 (11) 4444 9293 |  Tel. +54 (11) 4434 9393</p>
-				<p>www.bartulosbazar.com.ar | info@bartulosbazar.com.ar</p>
-				<br>
-				<p>&copy; Copyrigth Bartulos - Todos los derechos reservados</p>
-			</div> <!-- /footer-col1 -->
-
-			<div class="footer-col3">
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">EMPRESA</a></li>
-					<li><a href="#">PRODUCTOS</a></li>
-					<li><a href="#">NOVEDADES</a></li>
-					<li><a href="#">CONTACTO</a></li>
-				</ul>
-			</div> <!-- /footer-col1 -->
-
-			<div class="footer-col4">
-				<ul class="Face">
-					<li>SEGUINOS</li>
-					<br>
-					<br>
-					<li><img src="public/images/facebook-footer.png" alt="Facebook Bartulos Bazar"></li>
-					<li><a href="#">bartulosbazar</a></li>
-				</ul>
-				<ul class="Insta">
-					<li><img src="public/images/instagram-footer.png" alt="Instagram Bartulos Bazar"></li>
-					<li><a href="#">@bartulosbazar</a></li>
-				</ul>
-			</div> <!-- /footer-col1 -->
-		</footer> <!-- /footer -->
+		$Burguer.addEventListener('touchstart', function(){
+			$Desplegable.classList.toggle('active')
+		});
+		//$Desplegable.classList.toggle('active')
 
 
-	</section> <!--/Container -->
-	
+	</script>
 </body>
 </html>

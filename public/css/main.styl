@@ -28,6 +28,11 @@ footer
 		text-align left
 		vertical-align top
 		width 30%
+		a
+			color #333
+			text-decoration none
+		a:hover
+			text-decoration underline
 	.footer-col3
 		display inline-block
 		vertical-align top
@@ -150,8 +155,8 @@ header
 	font-family 'Biryani', sans-serif
 	font-size 1.8em
 	margin 0 auto
-	margin-bottom 3em
-	margin-top 2em
+	margin-bottom 1em
+	margin-top 6.5em
 	max-width 950px
 	text-align justify
 	width 100%
@@ -160,6 +165,8 @@ header
 		line-height 1.5em
 		span
 			color #B73500
+.Burguer
+	display none
 .Destacados
 	height auto
 	text-align center
@@ -195,11 +202,13 @@ header
 		height 251px
 		width 254px
 .Imagen-principalEmpresa
-	height auto
-	border solid 10px red
-	margin 0 0 1em 0
+	height 431px
+	margin -1.5em 0 -1.7em 0
 	text-align center
-	width 100%
+	width auto
+	img
+		height auto
+		width 80%
 	
 .Interno
 	height auto
@@ -655,18 +664,12 @@ header
 	text-align center
 	width 100%
 .Urgencias
-	background-color blue
-	background-image url('../../public/images/urgencias.jpg')
-	background-repeat no-repeat
-	background-size cover
-	-webkit-background-size cover
-	-moz-background-size cover
-	-o-background-size cover
-	-ms-background-size cover
 	height 300px
 	text-align center
 	width 100%
-	
+	img
+		height auto
+		width 100%	
 .Sec1
 	display inline-block
 	vertical-align middle
@@ -999,7 +1002,617 @@ header
 .FormualarioDeContacto
 	background-color #FBFBFC
 	text-align center
+	
+@media screen and (max-width: 1025px)
+	.Destacados
+		.Imagen-1
+			width 23%
+		.Imagen-2
+			width 23%
+		.Imagen-3
+			width 23%
+		.Imagen-4
+			width 23%
+	.Menu
+		margin 1em 1em 0 1em
+		padding 0
+	.Slider
+		margin 0 1em 0 3em
+		width 70%
+		img
+			height auto 
+			width 100%
+			
+@media screen and (max-width: 1024px)
+	.Destacados
+		margin 0
+		padding 0
+		.Imagen-1
+			margin 0 .5em 0 .5em
+			padding 0
+			width 23%
+		.Imagen-2
+			margin 0 .5em 0 .5em
+			padding 0
+			width 23%
+		.Imagen-3
+			margin 0 .5em 0 .5em
+			padding 0
+			width 23%
+		.Imagen-4
+			margin 0 .5em 0 .5em
+			padding 0
+			width 23%
+	.Menu
+		margin 2em 1em 0 1em
+		padding 0
+	.Slider
+		margin 0 1em 0 2em
+		padding 0	
+		img
+			height auto
+			width 100%
+
+@media screen and (max-width: 768px)
+	.Destacados
+		.Imagen-1
+			margin 0 .5em 1em .5em
+			width 22%
+		.Imagen-2
+			margin 0 .5em 1em .5em
+			width 22%
+		.Imagen-3
+			margin 0 .5em 1em .5em
+			width 22%
+		.Imagen-4
+			margin 0 .5em 1em .5em
+			width 22%
+	.Imagen-separador
+		height auto
+		width 100%
+		img
+			height auto
+			width 100%
+	.Menu
+		margin 0 0 0 .5em
+		padding 0
+	.Servicios
+		margin 1em 0 3em 0
+		padding 2em 0 2em 0
+		.Servicios-logo
+			width 30%
+		.Servicios-descripcion
+			margin 0
+			padding 0
+			width 60%
+	.Slider
+		margin 0 1em 0 2em 
+		width 65%
+		img
+			height auto
+			width 100%
+	.Urgencias
+		margin 0 0 -6em 0
 		
+@media screen and (max-width: 732px)
+	.Menu
+		margin 0 0 0 1em
+	.Slider
+		margin 2em 0 0 2em
+		width 60%
+		img
+			height auto
+			width 100%
+		
+@media screen and (max-width: 667px)
+	footer
+		.footer-col1
+			margin -1.5em 0 1em 0
+			padding 0
+			width 100%
+		.footer-col2
+			margin 0 0 1em 0
+			padding 0
+			text-align center
+			width 100%
+		.footer-col3
+			margin 0 0 1em 0
+			padding 0
+			text-align center
+			width 100%
+			ul li
+				display inline-block
+		.footer-col4
+			margin 0 0 -2.5em 0
+			padding 0
+			text-align center
+			width 100%
+	.Menu
+		margin 0
+		padding 0
+		text-align center
+		width 100%
+	.Presupuestar
+		.Presupuestar-1
+			margin 0 0 2em 0
+			padding 0
+			width 100%
+		.Presupuestar-2
+			margin 0 0 2em 0
+			padding 0
+			width 100%
+		.Presupuestar-3
+			margin 0 0 2em 0
+			padding 0
+			width 100%
+		.Presupuestar-4
+			margin 0 0 2em 0
+			padding 0
+			width 100%
+	.Slider
+		width auto
+		img
+			height auto
+			width 100%
+	
+@media screen and (max-width: 640px)
+	footer
+		.footer-col1
+			margin -2em 0 1.5em 0
+			padding 0
+			width 100%
+		.footer-col2
+			line-height 1.7em
+			margin -.8em 0 1.5em 0
+			padding 0
+			text-align center
+			width 100%
+		.footer-col3
+			line-height 1.7em
+			margin -.8em 0 1.5em 0
+			padding 0
+			text-align center
+			width 100%
+			ul li
+				display inline-block
+		.footer-col4
+			line-height 1.7em
+			margin -.8em 0 -2em 0
+			padding 0
+			text-align center
+			width 100%
+	.Destacados
+		margin -3em 0 0 0
+		.Imagen-1
+			margin 0 .5em 1.5em .5em
+			width 50%
+		.Imagen-2
+			margin 0 .5em 1.5em .5em
+			width 50%
+		.Imagen-3
+			margin 0 .5em 1.5em .5em
+			width 50%
+		.Imagen-4
+			margin 0 .5em 1.5em .5em
+			width 50%
+	.Imagen-separador
+		img
+			height auto
+			width 100%
+	.Menu
+		margin 0
+		padding 0
+		text-align center
+		width 100%
+	.Presupuestar
+		.Presupuestar-1
+			margin 0 0 1em 0
+			width 100%
+		.Presupuestar-2
+			margin 0 0 1em 0
+			width 100%
+		.Presupuestar-3
+			margin 0 0 1em 0
+			width 100%
+		.Presupuestar-4
+			margin 0 0 1em 0
+			width 100%
+	.Servicios
+		.Servicios-descripcion
+			margin 0
+			padding 0
+			width 100%
+		.Servicios-logo
+			margin -2em 0 1em 0
+			padding 0
+			width 100%
+	.Slider
+		margin 0
+		padding 0
+		width 100%
+		img
+			height auto
+			width 100%
+	.Urgencias
+		margin 0 0 -9em 0
+		padding 0
+
+@media screen and (max-width: 480px)
+	footer
+		.footer-col1
+			margin -1.5em 0 1.5em 0
+			padding 0
+			width 100%
+		.footer-col2
+			line-height 2em
+			margin 0
+			padding 0
+			text-align center
+			width 100%
+		.footer-col3
+			margin 0
+			padding 0
+			text-align center
+			width 100%
+			ul li
+				display inline-block
+		.footer-col4
+			margin 0
+			padding 0
+			text-align center
+			width 100%
+	.Descripcion-empresa
+		font-size 1.2em
+		font-weight 100
+		margin-top 1em
+		padding 1.5em 1em 0 1em
+		text-align justify
+		width 80%
+	.Destacados
+		margin -2em 0 0 0
+		.Titulo-col1
+			display none
+		.Titulo-col2
+			width 100%
+		.Titulo-col3
+			display none
+		.Imagen-1
+			margin -1.5em 0 2em 0
+			width 67%
+		.Imagen-2
+			margin 0 0 2em 0
+			width 67%
+		.Imagen-3
+			margin 0 0 2em 0
+			width 67%
+		.Imagen-4
+			margin 0 0 2em 0
+			width 67%
+	.Clientes
+		.Clientes-1
+			height auto
+			width 100%
+			img
+				height auto
+				width 35%
+		.Clientes-2
+			height auto
+			width 100%
+			img
+				height auto
+				width 35%
+		.Clientes-3
+			height auto
+			width 100%
+			img
+				height auto
+				width 35%
+		.Clientes-4
+			height auto
+			width 100%
+			img
+				height auto
+				width 35%
+	.Imagen-separador
+		img
+			height auto
+			width 100%
+	.Imagen-principalEmpresa
+		height auto
+		width 100%
+		img
+			height auto
+			width 100%
+	.Inoxigas
+		.Inoxigas-coltitulo
+			height auto
+			margin 0 0 1.3em 0
+			text-align center
+			width 100%
+		.Inoxigas-1
+			height auto
+			margin -5em 0 4em 0
+			padding 0
+			text-align center
+			width 100%
+			img
+				height auto
+				width 100%
+		.Inoxigas-2
+			padding 0 0 2em 0
+			width 100%
+			a
+				text-align center
+				margin 0 0 1em 1em
+			p
+				font-size 1em
+				padding 0 1em 0 1em
+	.Inoxigas-colpuntos
+		display none
+	.Menu
+		margin 0
+		padding 0
+		text-align center
+		width 100%
+	.More
+		margin 0 0 2em 0
+		padding 1em 0 0 0
+		text-align center
+		img
+			height auto
+			padding 1em 0 1em 0
+			width 100%
+		.More-1
+			margin 0
+			padding 0
+		.More-2
+			font-size 1.1em
+			margin 0
+			padding 0
+			text-align justify
+			width 80%
+	.Presupuestar
+		margin -1em 0 0 0
+		.Presupuestar-1
+			margin 0 0 1em 0
+			padding 0
+			width 100%
+		.Presupuestar-2
+			margin 0 0 1em 0
+			padding 0
+			width 100%
+		.Presupuestar-3
+			margin 0 0 1em 0
+			padding 0
+			width 100%
+		.Presupuestar-4
+			margin 0 0 1em 0
+			padding 0
+			width 100%
+	.Servicios
+		margin 1em 0 0 0
+		.Servicios-descripcion
+			margin 0
+			padding 0
+			width 90%
+		.Servicios-logo
+			margin 0 0 1em 0
+			padding 0
+			width 100%
+			img
+				height auto
+				width 20%
+	.Slider
+		width 100%
+		img
+			height auto
+			width 100%
+	.Urgencias
+		display block
+		margin 0 0 -2em 0
+		height auto
+		width auto
+	.Productos
+		margin -1em 0 2em 0
+		text-align center
+	.Galeria
+		margin 2em 0 2em 0
+		padding 0
+		.Galeria-1
+			margin 0
+			padding 0
+			width 100%
+			h2
+				font-size 1.3em
+		.Galeria-2
+			margin 0
+			padding 0
+			width 100%
+			h2
+				font-size 1.3em
+		.Galeria-3
+			margin 0
+			padding 0
+			width 100%
+			h2
+				font-size 1.3em
+		.Galeria-4
+			margin 0
+			padding 0
+			width 100%
+			h2
+				font-size 1.3em
+	.Promos
+		margin 0
+		padding 0
+		img
+			height auto
+			margin 0 0 1em 0
+			width 100%
+
+@media screen and (max-width: 320px)
+	.Clientes
+		.Clientes-1
+			width 100%
+		.Clientes-2
+			width 100%
+		.Clientes-3
+			width 100%
+		.Clientes-4
+			width 100%
+	footer
+		.footer-col1
+			margin 8em 0 1em 0
+			padding 0
+			height auto
+			width 100%
+		.footer-col2
+			margin 0
+			padding 0
+			line-height 1.7em
+			text-align center
+			width 100%
+		.footer-col3
+			margin 0
+			padding 0
+			width 100%
+			ul li
+				display inline-block
+		.footer-col4
+			height auto
+			text-align center
+			width 100%
+	.Destacados
+		.Imagen-1
+			margin 0 0 2em 0
+		.Imagen-2
+			margin 0 0 2em 0
+		.Imagen-3
+			margin 0 0 2em 0
+		.Imagen-4
+			margin 0 0 2em 0
+	.Descripcion-empresa
+		font-size 1em
+		margin .5em 0 0 0
+		padding 0 1em 0 1em
+		text-align justify
+		width 90%
+	.Imagen-principalEmpresa
+		height auto
+		margin -3.5em 0 0 0
+		img
+			height auto
+			width 100%
+	.Imagen-separador
+		height auto
+		width 100%
+		img
+			height auto
+			width 100%
+	.Inoxigas
+		height auto
+		margin 4em 0 0 0
+		padding 0
+		text-align center
+		.Inoxigas-1
+			height auto
+			margin -3.5em 0 0 0
+			padding 0
+			width auto
+		.Inoxigas-2
+			height auto
+			margin 0
+			padding 0 0 2em 0
+			width 100%
+		.Inoxigas-coltitulo
+			width 100%
+	.Inoxigas-colpuntos
+		display none
+	.Menu
+		height auto
+		margin 0
+		text-align center
+		padding 0
+		width 100%
+	.More
+		height auto
+		margin 1em 0 3em 0
+		text-align center
+		width auto
+		img
+			height auto
+			width 100%
+	.More-1
+		border none
+	.More-2
+		margin 1em 0 3em 0
+		padding 0 1em 0 1em
+		text-align justify
+		width 85%
+	.Servicios
+		.Servicios-logo
+			height auto
+			margin -.7em 0 1em 0
+			width 100%
+			img
+				height auto
+				width 20%
+		.Servicios-descripcion
+			height auto
+			margin 0 0 1em 0
+			padding 0
+			width 90%
+			article 
+				padding 1em 0 1.5em 0
+				margin 0
+				text-align center
+				width 100%
+	.Slider
+		height auto
+		width 100%
+		img
+			height auto
+			width 100%
+	.Sombra
+		display none
+	.Presupuestar-1
+		height auto
+		margin 0 0 1.5em 0
+		padding 0
+		width 100%
+	.Presupuestar-2
+		height auto
+		margin 0 0 1.5em 0
+		padding 0
+		width 100%
+	.Presupuestar-3
+		height auto
+		margin 0 0 1.5em 0
+		padding 0
+		width 100%
+	.Presupuestar-4
+		height auto
+		margin 0 0 1.5em 0
+		padding 0
+		width 100%
+	.Titulo
+		margin -2.5em 0 2em 0
+		width auto
+		&-col2
+			width 100%
+	.Titulo-col1Interno
+		border none
+	.Titulo-col2Interno
+		width 100%
+		h3
+			padding 0 2em 0 2em
+	.Titulo-col3
+		border none
+	.Urgencias
+		margin 0 0 -15em 0
+	.Titulo-col3Interno
+		display none
+
 
 
 
