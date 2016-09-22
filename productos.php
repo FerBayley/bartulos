@@ -13,13 +13,24 @@
 </head>
 <body>
 
-	<section class="Container">	
-
+	<section class="Container">
 		<header class="Interno">
 			<div class="Interno-1">
 				<img src="public/images/logo-interno.png" alt="">
 			</div> <!-- / Interno-1 -->
-			<!-- ACA VA EL MENU INTERNO -->
+			<div class="Interno-2">
+				<div class="Menu-Interno">
+					<ul>
+						<li><a href="index.php">HOME</a></li>
+						<li><a href="empresa.php"><span>EMPRESA</span></a></li>
+						<li><a href="productos.php">PRODUCTOS</a></li>
+						<li><a href="developer.php">NOVEDADES</a></li>
+						<li><a href="developer.php">CONTACTO</a></li>
+						<li class="Mini"><a href="#"><img src="public/images/facebook-header.png" alt="Facebook"></a></li>
+						<li class="Mini"><a href="#"><li><a href="#"><img src="public/images/instagram-header.png" alt="Instagram"></a></li></a></li>
+					</ul>
+				</div> <!-- / Menu-Interno -->
+			</div> <!-- / Interno-2 -->
 		</header> <!-- / Interno -->
 
 		<section class="Sombra">
@@ -77,12 +88,8 @@
 		</section> <!-- / Promos -->
 
 	<?php include("includes/presupuestar.php"); ?>
-
 	<?php include("includes/path.php"); ?>
-	
 	<?php include("includes/footer.php"); ?>
-
 	</section> <!--/Container -->
-	
 </body>
 </html>

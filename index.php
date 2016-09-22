@@ -2,7 +2,7 @@
 <html lang="es-AR">
 <head>
 	<meta charset="UTF-8">
-	<title>Bartulos Bazar</title>
+	<title>Bartulos Bazar - Bazar gastronomico</title>
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<!-- VIEWPORT -->
@@ -14,24 +14,22 @@
 <body>
 
 	<section class="Container">
-		
 		<header>
-		<h1><img src="public/images/logo.png" alt="Bartulos Bazar"></h1>
-		<span class="Burguer">MENU</span>
+		<!--<span class="Burguer">MENU</span>-->
 			<section class="Menu">
+				<h1><img src="public/images/logo.png" alt="Bartulos Bazar"></h1>
 				<ul>
 					<li><span>HOME</span></li>
 					<li><a href="empresa.php">EMPRESA</a></li>
 					<li><a href="productos.php">PRODUCTOS</a></li>
 					<li><a href="#">NOVEDADES</a></li>
-					<li><a href="#">CONTACTO</a></li>
+					<li><a href="developer.php">CONTACTO</a></li>
 				</ul>
 			</section> <!--/ Menu -->
 
 			<section class="Slider">
 				<img src="public/images/slider/img-1.png" alt="Sarten modelo tal por cual">
 			</section> <!--/Slider -->
-			
 		</header> <!--/ header -->
 
 		<section class="Destacados">
@@ -44,7 +42,6 @@
 				</div> <!-- / Titulo-col2 -->
 				<div class="Titulo-col3"></div> <!-- / Titulo-col2 -->
 			</div> <!-- / Titulo -->
-			
 			<div class="Imagen-1">
 				<div class="Cuadro">
 					<h2 class="Cuadro-titulo">¡NUEVAS OLLAS Y CACEROLAS</h2>
@@ -85,7 +82,6 @@
 							CONOCÉ NUESTROS SERVICIOS
 						</a>
 				</article>
-				
 			</div> <!-- /Servicios-descripcion -->
 		</section> <!--/ Servicios -->
 
@@ -101,37 +97,37 @@
 
 			<section class="Presupuestar">
 				<div class="Presupuestar-1">
-					<img src="public/images/paso1.jpg" alt="">
+					<img src="public/images/paso1.jpg" alt="Pasos de compra 1">
 					<p>INGRESA A NUESTRA <span class="Colores">SECCION PRODUCTOS</span></p>
 				</div> <!-- / Presupuestar-1 -->
 
 				<div class="Presupuestar-2">
-					<img src="public/images/paso2.jpg" alt="">
+					<img src="public/images/paso2.jpg" alt="Pasos de compra 2">
 					<p><span class="Colores">BUSCA TODO LO QUE NECESITAS</span> EN NUESTROS CATALOGOS</p>
 				</div> <!-- / Presupuestar-2 -->
 
 				<div class="Presupuestar-3">
-					<img src="public/images/paso3.jpg" alt="">
+					<img src="public/images/paso3.jpg" alt="Pasos de compra 3">
 					<p>ELEGI LOS QUE QUERES Y <span class="Colores">CARGALOS AL CARRITO DE PRESUPUESTO</span></p>
 				</div> <!-- / Presupuestar-3 -->
 
 				<div class="Presupuestar-4">
-					<img src="public/images/paso4.jpg" alt="">
+					<img src="public/images/paso4.jpg" alt="Pasos de compra 4">
 					<p>LLENA TUS DATOS, <span class="Colores">Y ENVIANOS TU PEDIDO. !EN BREVE TE ESTAREMOS CONTACTANDO!</span></p>
 				</div> <!-- / Presupuestar-4 -->
 			</section> <!-- / Presupuestar -->
 
 
 		<section class="Imagen-separador">
-			<img src="public/images/puntos.jpg" alt="">
+			<img src="public/images/puntos.jpg" alt="Puntos">
 		</section> <!-- / Imagen-separador -->
 
 		<section class="Urgencias">
-			<img src="public/images/urgencias.jpg" alt="">
+			<img src="public/images/urgencias.jpg" alt="Urgencias Bartulos">
 		</section> <!-- / Urgencias -->
-	
+
 		<?php include("includes/footer.php"); ?>
-	</section> <!--/Container -->	
+	</section> <!--/Container -->
 
 	<script>
 		var $Burguer = document.getElementById('MenuDesplegable');

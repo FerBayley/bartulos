@@ -13,13 +13,25 @@
 </head>
 <body>
 
-	<section class="Container">	
+	<section class="Container">
 
 		<header class="Interno">
 			<div class="Interno-1">
 				<img src="public/images/logo-interno.png" alt="Bartulos Bazar">
 			</div> <!-- / Interno-1 -->
-			<!-- ACA VA EL MENU INTERNO -->
+			<div class="Interno-2">
+				<div class="Menu-Interno">
+					<ul>
+						<li><a href="index.php">HOME</a></li>
+						<li><a href="empresa.php"><span>EMPRESA</span></a></li>
+						<li><a href="productos.php">PRODUCTOS</a></li>
+						<li><a href="developer.php">NOVEDADES</a></li>
+						<li><a href="developer.php">CONTACTO</a></li>
+						<li class="Mini"><a href="#"><img src="public/images/facebook-header.png" alt="Facebook"></a></li>
+						<li class="Mini"><a href="#"><li><a href="#"><img src="public/images/instagram-header.png" alt="Instagram"></a></li></a></li>
+					</ul>
+				</div> <!-- / Menu-Interno -->
+			</div> <!-- / Interno-2 -->
 		</header> <!-- / Interno -->
 
 		<section class="Sombra">
@@ -27,7 +39,7 @@
 		</section> <!-- / Sombra -->
 
 		<section class="Imagen-principalEmpresa">
-			<img src="public/images/img-empresa.png" alt="Bartulos Bazar">
+			<img src="public/images/img-empresa.jpg" alt="Bartulos Bazar">
 		</section> <!-- / Imagen-principalEmpresa -->
 
 		<section class="Descripcion-empresa">
@@ -70,47 +82,27 @@
 
 		<section class="Clientes">
 			<div class="Clientes-1">
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 1</h3>
-
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 1</h3>
-
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 1</h3>
+				<img src="public/images/petersen.jpg" alt="Los Petersen">
+				<img src="public/images/denuru.jpg" alt="Juan Pedro Demuru">
+				<img src="public/images/bradley.jpg" alt="Bradley">
 			</div> <!-- / Clientes-1 -->
 
 			<div class="Clientes-2">
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 2</h3>
-
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 2</h3>
-
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 1</h3>
+				<img src="public/images/hilton.jpg" alt="Hilton">
+				<img src="public/images/roux.jpg" alt="Roux">
+				<img src="public/images/grand.jpg" alt="Grand">
 			</div> <!-- / Clientes-2 -->
 
 			<div class="Clientes-3">
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 3</h3>	
-
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 3</h3>
-
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 1</h3>
+				<img src="public/images/peugeot.jpg" alt="Peugeot">
+				<img src="public/images/don-julio.jpg" alt="Don Julio">
+				<img src="public/images/palta.jpg" alt="Palta">
 			</div> <!-- / Clientes-3 -->
 
 			<div class="Clientes-4">
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 4</h3>
-
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 4</h3>
-
-				<img src="public/images/cliente-dummi.png" alt="Clientes">
-				<h3>Cliente 1</h3>
+				<img src="public/images/la-juvenil.jpg" alt="La Juvenil">
+				<img src="public/images/asta.jpg" alt="Mauriciio Asta">
+				<img src="public/images/magic.jpg" alt="Casino Magic">
 			</div> <!-- / Clientes-4 -->
 		</section> <!-- / Clientes -->
 
@@ -124,7 +116,7 @@
 				<p>......................................................................................................................................</p>
 			</div> <!-- / Inoxigas-coltitulo -->
 		</section> <!-- / Inoxigas -->
-		
+
 		<section class="Inoxigas">
 			<div class="Inoxigas-1">
 				<img src="public/images/logo-biginterno.jpg" height="159px" width="291px" alt="Inoxigas">
@@ -141,12 +133,11 @@
 		</section> <!-- / Inoxigas-empresa -->
 
 		<section class="Urgencias">
-			<img src="public/images/Urgencias.jpg" alt="">
+			<img src="public/images/urgencias.jpg" alt="">
 		</section> <!-- / Urgencias -->
-	
+		
 	<?php include("includes/footer.php"); ?>
 
 	</section> <!--/Container -->
-	
 </body>
 </html>
