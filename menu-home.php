@@ -4,8 +4,8 @@
 			<li><span>HOME</span></li>
 			<li><a href="empresa.php">EMPRESA</a></li>
 			<li><a href="productos.php">PRODUCTOS</a></li>
-			<li><a href="#">NOVEDADES</a></li>
-			<li><a href="#">CONTACTO</a></li>
+			<li><a href="novedades.php">NOVEDADES</a></li>
+			<li><a href="contacto.php">CONTACTO</a></li>
 		</ul>
 
 	<div class="Redes">

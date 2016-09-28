@@ -27,7 +27,7 @@ footer
 		font-family 'Biryani', sans-serif
 		font-size .7em
 		display inline-block
-		line-height 1.5em
+		line-height 2em
 		margin 0 1em 0 1em
 		text-align left
 		vertical-align top
@@ -55,7 +55,7 @@ footer
 		display inline-block
 		text-align left
 		vertical-align top
-		width 23%
+		width 30%
 		h2
 			font-size .8em
 			margin 0 0 .5em 0
@@ -63,16 +63,59 @@ footer
 			font-family 'Biryani', sans-serif
 			font-size .8em
 			list-style none
-			display inline-block
 			vertical-align middle
+			display inline-block
+			img
+				display inline-block
+				vertical-align middle
 			a
 				color #999999
 				text-decoration none
+form
+	background-color #FFF
+	box-sizing border-box
+	margin auto
+	margin-top 20px
+	padding 10px 20px
+	width 450px
+input
+	background-color #FCFCFC
+	border solid 1px #DDD
+	box-sizing border-box
+	height auto
+	font-size 12px
+	margin-bottom 20px
+	padding 12px
+	width 100%
+textarea
+	background-color #FCFCFC
+	border solid 1px #DDD
+	box-sizing border-box
+	height auto
+	font-size 12px
+	margin-bottom 20px
+	min-height 100px
+	min-height 200px
+	max-width 100%
+	padding 12px
+	width 100%
+#boton
+	color #FFF
+	font-size 1em
+	font-weight 100
+	border-radius 5px
+	-webkit-border-radius 5px
+	-moz-border-radius 5px
+	-ms-border-radius 5px
+	-o-border-radius 5px
+	background-color #B73500
+	border none
 header
 	height 100%
+	box-sizing border-box
 	margin 0 auto
 	margin-bottom 60px
-	max-width 1100px
+	max-width 1300px
 	width 100%
 .Clientes
 	height auto
@@ -148,18 +191,50 @@ header
 		text-align left
 		padding .5em 1em .5em 0
 		line-height 1.5em
+.Contacto
+	box-sizing border-box
+	height auto
+	margin 0 auto
+	margin-bottom 5em
+	margin-top 1.5em
+	max-width 1200px
+	text-align center
+	width 100%
+	&-1
+		height auto
+		display inline-block
+		margin 0 .5em 0 .5em
+		vertical-align top
+		width auto
+	&-2
+		height auto
+		display inline-block
+		padding 1.3em 0 0 0
+		vertical-align top
+		width auto
+		a
+			color #B73500	
+			text-decoration none
+		a:hover
+			text-decoration underline
+		p
+			color #655752
+			font-size .8em
+			text-align left
+			margin .5em 0 0 0 
 .Descripcion-empresa
 	font-family 'Biryani', sans-serif
-	font-size 1.8em
 	margin 0 auto
 	margin-bottom 1em
-	margin-top 1.8em
+	margin-top 3em
+	padding 0 1em 0 1.5em
 	max-width 950px
-	text-align justify
 	width 100%
 	article p
 		color #655752
-		line-height 1.5em
+		font-size 1.5em
+		line-height 1.7em
+		width 100%
 		span
 			color #B73500
 .DatosDeContato
@@ -235,14 +310,56 @@ header
 	height auto
 	overflow hidden
 	width 100%
+	&-a
+		height auto
+		display inline-block
+		margin 1em 0 0 0
+		vertical-align middle
+		width 45%
+	&-b
+		height auto
+		display inline-block
+		vertical-align middle
+		width auto
+		ul 
+			li
+				height auto
+				display inline-block
+				list-style none
+				padding 0 .5em 0 .5em
+				a
+					color #231F20
+					font-size .8em
+					padding .3em .5em .3em .5em
+					text-decoration none
+				a:hover
+					color #FFF
+					background-color #B73500
+					border-radius .4em
+					-webkit-border-radius .4em
+					-moz-border-radius .4em
+					-ms-border-radius .4em
+					-o-border-radius .4em
+	&-c
+		height auto
+		display inline-block
+		vertical-align middle
+		width auto
+		ul 
+			li
+				height auto
+				display inline-block
+				list-style none
+				padding 0 .3em 0 .3em
 	&-1
 		display inline-block
 		vertical-align middle
 	&-2
 		display inline-block
 		float right
-		padding 0 1em 0 0
+		padding .5em 1em 0 0
 		vertical-align middle
+		width 60%
 		ul li
 			display inline-block
 			font-family 'Quicksand', sans-serif
@@ -307,12 +424,13 @@ header
 		display inline-block
 		height auto
 		margin -4.3em 0 0 0
+		padding 2em 0 0 0
 		vertical-align top
 		width 65%
 		article p 
 			font-family 'Biryani', sans-serif
 			font-size .8em
-			margin 1.5em 0 1em 0
+			margin -.7em 0 1em 0
 		a
 			background-color #B73500
 			border-radius 3px
@@ -321,11 +439,13 @@ header
 			padding .3em 2em .3em 2em
 			text-decoration none
 			text-align center
+		a:hover
+			opacity .8
 	
 .Menu
 	display inline-block
 	height 100%
-	margin 0 1em 0 5em 
+	margin 1em 1em 0 2.5em 
 	padding 2em
 	vertical-align top
 	width auto
@@ -369,6 +489,7 @@ header
 	height auto
 	margin 0 auto
 	margin-bottom 5em
+	margin-top 2.5em
 	max-width 1000px
 	width 100%
 	&-1
@@ -387,7 +508,8 @@ header
 		article p
 			color #655752
 			font-family 'Biryani', sans-serif
-			font-size .8em
+			font-size 1em
+			margin -2em 0 0 0
 .Path
 	margin 50 0 1em 0
 	width auto
@@ -441,7 +563,7 @@ header
 		margin 0 .3em 0 .3em
 		text-align center
 		vertical-align middle
-		width 10%
+		width 15%
 	&-descripcion
 		background-color #F4E5DF
 		border-radius 5px 5px 5px 5px
@@ -449,7 +571,7 @@ header
 		display inline-block
 		margin 0 0 0 4em
 		vertical-align middle
-		width 55%
+		width 65%
 		article
 			line-height 2em
 			margin 1em 0 1.5em 1em
@@ -479,10 +601,6 @@ header
 				-moz-transition all 0.5s ease-in
 				-o-transition all 0.5s ease-in
 				transition all 0.5s ease-in
-.Slider
-	display inline-block
-	vertical-align top
-	width auto
 .Sombra
 	height auto
 	margin -1.5em 0 2em 0
@@ -611,6 +729,7 @@ header
 	background-color #FFF
 	height auto
 	margin 0 auto
+	padding 0
 	max-width 1150px
 	width 100%
 
@@ -1037,6 +1156,31 @@ header
 	top 0
 .LogoPrincipal
 	padding .5em 0 0 3em
+		
+.Vidriera
+	height 500px
+	display inline-block
+	margin 1.2em 0 0 1.5em
+	overflow hidden
+	vertical-align top
+	width 70%
+.RedesBg
+	height auto
+	margin 1em 0 0 0
+	width 100%
+	li
+		display inline-block
+		vertical-align top
+		margin 0
+		padding 0
+		img
+			margin 0 -1.3em 0 0
+.ImagenesSlider
+	height auto
+	margin 2em 0 0 0
+	display inline-block
+	width 70%
+
 @media screen and (max-width: 1025px)
 	.Destacados
 		.Imagen-1
@@ -1050,13 +1194,6 @@ header
 	.Menu
 		margin 1em 1em 0 1em
 		padding 0
-	.Slider
-		margin 0 1em 0 3em
-		width 70%
-		img
-			height auto 
-			width 100%
-
 @media screen and (max-width: 1024px)
 	.Destacados
 		margin 0
@@ -1080,13 +1217,6 @@ header
 	.Menu
 		margin 2em 1em 0 1em
 		padding 0
-	.Slider
-		margin 0 1em 0 2em
-		padding 0	
-		img
-			height auto
-			width 100%
-
 @media screen and (max-width: 768px)
 	.Destacados
 		.Imagen-1
@@ -1119,25 +1249,11 @@ header
 			margin 0
 			padding 0
 			width 60%
-	.Slider
-		margin 0 1em 0 2em 
-		width 65%
-		img
-			height auto
-			width 100%
 	.Urgencias
 		margin 0 0 -6em 0
-
 @media screen and (max-width: 732px)
 	.Menu
 		margin 0 0 0 1em
-	.Slider
-		margin 2em 0 0 2em
-		width 60%
-		img
-			height auto
-			width 100%
-
 @media screen and (max-width: 667px)
 	footer
 		.footer-col1
@@ -1183,12 +1299,6 @@ header
 			margin 0 0 2em 0
 			padding 0
 			width 100%
-	.Slider
-		width auto
-		img
-			height auto
-			width 100%
-
 @media screen and (max-width: 640px)
 	footer
 		.footer-col1
@@ -1260,18 +1370,11 @@ header
 			margin -2em 0 1em 0
 			padding 0
 			width 100%
-	.Slider
-		margin 0
-		padding 0
-		width 100%
-		img
-			height auto
-			width 100%
-	.Urgencias
-		margin 0 0 -9em 0
-		padding 0
-
 @media screen and (max-width: 480px)
+	.ImagenesSlider
+		height auto
+		margin 20em 0 0 0
+		width 100%
 	footer
 		.footer-col1
 			margin -1.5em 0 1.5em 0
@@ -1324,28 +1427,24 @@ header
 			width 67%
 	.Clientes
 		.Clientes-1
-			background-color red
 			height auto
 			width 100%
 			img
 				height auto
 				width 35%
 		.Clientes-2
-			background-color salmon
 			height auto
 			width 100%
 			img
 				height auto
 				width 35%
 		.Clientes-3
-			background-color blue
 			height auto
 			width 100%
 			img
 				height auto
 				width 35%
 		.Clientes-4
-			background-color yellow
 			height auto
 			width 100%
 			img
@@ -1388,8 +1487,6 @@ header
 	.Inoxigas-colpuntos
 		display none
 	.Menu
-		border solid 10px blue
-		background-color rgba(0, 0, 0, .7)
 		margin 0
 		padding 0
 		text-align center
@@ -1443,54 +1540,6 @@ header
 			img
 				height auto
 				width 20%
-	.Slider
-		width 100%
-		img
-			height auto
-			width 100%
-	.Urgencias
-		display block
-		margin 0 0 -2em 0
-		height auto
-		width auto
-	.Productos
-		margin -1em 0 2em 0
-		text-align center
-	.Galeria
-		margin 2em 0 2em 0
-		padding 0
-		.Galeria-1
-			margin 0
-			padding 0
-			width 100%
-			h2
-				font-size 1.3em
-		.Galeria-2
-			margin 0
-			padding 0
-			width 100%
-			h2
-				font-size 1.3em
-		.Galeria-3
-			margin 0
-			padding 0
-			width 100%
-			h2
-				font-size 1.3em
-		.Galeria-4
-			margin 0
-			padding 0
-			width 100%
-			h2
-				font-size 1.3em
-	.Promos
-		margin 0
-		padding 0
-		img
-			height auto
-			margin 0 0 1em 0
-			width 100%
-
 @media screen and (max-width: 320px)
 	.Clientes
 		.Clientes-1
@@ -1608,12 +1657,6 @@ header
 				margin 0
 				text-align center
 				width 100%
-	.Slider
-		height auto
-		width 100%
-		img
-			height auto
-			width 100%
 	.Sombra
 		display none
 	.Presupuestar-1

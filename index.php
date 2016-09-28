@@ -8,6 +8,7 @@
 	<!-- VIEWPORT -->
 	<link rel="stylesheet" href="public/css/normalize.css" />
 	<link rel="stylesheet" href="public/css/main.css" />
+	<link rel="stylesheet" href="public/css/responsiveslides.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
@@ -22,14 +23,34 @@
 					<li><span>HOME</span></li>
 					<li><a href="empresa.php">EMPRESA</a></li>
 					<li><a href="productos.php">PRODUCTOS</a></li>
-					<li><a href="#">NOVEDADES</a></li>
-					<li><a href="developer.php">CONTACTO</a></li>
+					<li><a href="developer.php">NOVEDADES</a></li>
+					<li><a href="contacto.php">CONTACTO</a></li>
 				</ul>
+
+				<ul class="RedesBg">
+					<li>
+						<a href="#">
+							<img src="public/images/facebook-header.png" alt="Facebook">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<a href="#"><img src="public/images/instagram-header.png" alt="Instagram">
+						</a>
+					</li>
+				</ul> <!-- / RedesBg -->
 			</section> <!--/ Menu -->
 
-			<section class="Slider">
-				<img src="public/images/slider/img-1.png" alt="Sarten modelo tal por cual">
-			</section> <!--/Slider -->
+
+			<section class="ImagenesSlider">
+				<ul class="rslides">
+				  <li><img src="public/images/slider1.jpg" alt=""></li>
+				  <li><img src="public/images/slider2.png" alt=""></li>
+				  <li><img src="public/images/slider3.png" alt=""></li>
+				  <li><img src="public/images/slider4.png" alt=""></li>
+				  <li><img src="public/images/slider5.png" alt=""></li>
+				</ul> <!-- / rslides -->
+			</section> <!-- / ImagenesSlider -->
 		</header> <!--/ header -->
 
 		<section class="Destacados">
@@ -76,10 +97,13 @@
 			<div class="Servicios-descripcion">
 				<article>
 					<p>
-						<span>Bártulos, Bazar Gastronómico</span>, nace con el deseo de poder acompañar, guiar, asesorar a los clientes en todas las compras de productos para que puedan satisfacer sus necesidades de la manera más productiva y competitiva para su organización.
+						En <span>Bártulos Bazar</span> disponemos de una variedad de más de 500 productos con stock permanente de uso gastronómico. 
+					</p>
+					<p>
+						Contamos con vajilla, cristelería, cubiertos, electrodomésticos, maquinarias frío-calor y muchos más. No dejes de consultar nuestros productos!, siempre hay novedades y promociones que harán tu proyecto más productivo y eficiente con la mejor calidad.
 					</p>
 						<a href="#">
-							CONOCÉ NUESTROS SERVICIOS
+							CONOCE NUESTROS PRODUCTOS
 						</a>
 				</article>
 			</div> <!-- /Servicios-descripcion -->
@@ -138,5 +162,40 @@
 		});
 		//$Desplegable.classList.toggle('active')
 	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="public/js/responsiveslides.js"></script>
+	<script>
+ 	 	$(function() {
+    		$(".rslides").responsiveSlides();
+  		});
+	</script>
+	<!--<script src="public/js/jquery.slides.js"></script>
+	<script>
+		$(function(){
+  			$(".slides").slidesjs({
+	    		play: {
+				      active: false,
+				        // [boolean] Generate the play and stop buttons.
+				        // You cannot use your own buttons. Sorry.
+				      effect: "fade",
+				        // [string] Can be either "slide" or "fade".
+				      interval: 3000,
+				        // [number] Time spent on each slide in milliseconds.
+				      auto: true,
+				        // [boolean] Start playing the slideshow on load.
+				      swap: true,
+				        // [boolean] show/hide stop and play buttons
+				      pauseOnHover: false,
+				        // [boolean] pause a playing slideshow on hover
+				      restartDelay: 2500
+				        // [number] restart delay on inactive slideshow
+				    }
+  			});
+		});
+	</script> -->
 </body>
 </html>
+
+
+
+
