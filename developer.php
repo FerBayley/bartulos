@@ -15,7 +15,11 @@
 	<section class="Container">
 		<header class="Interno">
 			<div class="Interno-a">
-				<img src="public/images/logo-interno.png" alt="Bartulos Bazar">
+				<h1>
+					<a href="index.php">
+						<img src="public/images/logo-interno.png" alt="Bartulos Bazar">
+					</a>
+				</h1>
 			</div> <!-- / Interno-a -->
 
 			<div class="Interno-b">
@@ -29,9 +33,17 @@
 			</div> <!-- / Interno-b -->
 
 			<div class="Interno-c">
-				<ul>
-					<li><a href="#"><img src="public/images/facebook-header.png" alt="Facebook"></a></li>
-					<li><a href="#"><img src="public/images/instagram-header.png" alt="Instagram"></a></li>
+					<ul>
+					<li>
+						<a href="https://www.facebook.com/bartulosbazargastronomico/?fref=ts" 
+						target="_blanck">
+							<img src="public/images/facebook-header.png" alt="Facebook">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck"><img src="public/images/instagram-header.png" alt="Instagram">
+						</a>
+					</li>
 				</ul>
 			</div> <!-- / Interno-c -->
 		</header> <!-- / Interno -->
@@ -46,7 +58,17 @@
 				</div> <!-- / Conti -->
 			</section> <!-- / Developer -->
 
-			<section class="DatosDeContato">
+			<section class="BotonCont">
+				<a href="contacto.php">CONTACTO</a>
+			</section> <!-- / BotonCont -->
+				
+				<br>
+
+				<section class="Urgencias">
+					<img src="public/images/urgencias.jpg" alt="">
+				</section> <!-- / Urgencias -->
+
+			<!--<section class="DatosDeContato">
 				<h2>POR <br>URGENCIAS <br> LLAMANOS AL</h2>
 				<h3><span class="DatosDeContato-tel">(+54 911)</span> 3799 7460</h3>
 			</section><!-- / DatosDeContato -->

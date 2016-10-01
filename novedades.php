@@ -16,7 +16,11 @@
 	<section class="Container">
 		<header class="Interno">
 			<div class="Interno-a">
-				<img src="public/images/logo-interno.png" alt="Bartulos Bazar">
+				<h1>
+					<a href="index.php">
+						<img src="public/images/logo-interno.png" alt="Bartulos Bazar">
+					</a>
+				</h1>
 			</div> <!-- / Interno-a -->
 
 			<div class="Interno-b">
@@ -31,8 +35,16 @@
 
 			<div class="Interno-c">
 				<ul>
-					<li><a href="#"><img src="public/images/facebook-header.png" alt="Facebook"></a></li>
-					<li><a href="#"><img src="public/images/instagram-header.png" alt="Instagram"></a></li>
+					<li>
+						<a href="https://www.facebook.com/bartulosbazargastronomico/?fref=ts" 
+						target="_blanck">
+							<img src="public/images/facebook-header.png" alt="Facebook">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck"><img src="public/images/instagram-header.png" alt="Instagram">
+						</a>
+					</li>
 				</ul>
 			</div> <!-- / Interno-c -->
 		</header> <!-- / Interno -->
@@ -130,10 +142,10 @@
 	</section>
 
 	<section class="Urgencias">
-			<img src="public/images/urgencias.jpg" alt="">
-		</section> <!-- / Urgencias -->
+		<img src="public/images/urgencias.jpg" alt="">
+	</section> <!-- / Urgencias -->
 
-	<section class="Footerbartulos"></section
+	<section class="Footerbartulos"></section>
 	<?php include("includes/footer.php"); ?>
 	</section> <!--/Container -->
 </body>

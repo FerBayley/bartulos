@@ -29,12 +29,12 @@
 
 				<ul class="RedesBg">
 					<li>
-						<a href="#">
+						<a href="https://www.facebook.com/bartulosbazargastronomico/?fref=ts" target="_blanck">
 							<img src="public/images/facebook-header.png" alt="Facebook">
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck">
 							<a href="#"><img src="public/images/instagram-header.png" alt="Instagram">
 						</a>
 					</li>
@@ -63,30 +63,41 @@
 				</div> <!-- / Titulo-col2 -->
 				<div class="Titulo-col3"></div> <!-- / Titulo-col2 -->
 			</div> <!-- / Titulo -->
-			<div class="Imagen-1">
-				<div class="Cuadro">
-					<h2 class="Cuadro-titulo">¡NUEVAS OLLAS Y CACEROLAS</h2>
-					<h3 class="Cuadro-subtitulo">Contactanos</h3>
-				</div> <!-- / Cuadro -->
-			</div> <!--/ Imagen-1 -->
-			<div class="Imagen-2">
-				<div class="Cuadro">
-					<h2 class="Cuadro-titulo">CATÁLOGO ONLINE</h2>
-					<h3 class="Cuadro-subtitulo">Contactanos</h3>
-				</div> <!-- / Cuadro -->
-			</div> <!--/ Imagen-2 -->
-			<div class="Imagen-3">
-				<div class="Cuadro">
-					<h2 class="Cuadro-titulo">DESCUENTOS</h2>
-					<h3 class="Cuadro-subtitulo">Contactanos</h3>
-				</div> <!-- / Cuadro -->
-			</div> <!--/ Imagen-3 -->
-			<div class="Imagen-4">
-				<div class="Cuadro">
-					<h2 class="Cuadro-titulo">TRABAJO DESTACADO</h2>
-					<h3 class="Cuadro-subtitulo">Contactanos</h3>
-				</div> <!-- / Cuadro -->
-			</div> <!--/ Imagen-4 -->
+			<a href="mailto:contacto@bartulosbazar.com">
+				<div class="Imagen-1">
+					<div class="Cuadro">
+						<h2 class="Cuadro-titulo">¡NUEVAS OLLAS Y CACEROLAS</h2>
+						<h3 class="Cuadro-subtitulo">Contactanos</h3>
+					</div> <!-- / Cuadro -->
+				</div> <!--/ Imagen-1 -->
+			</a>
+
+			<a href="mailto:contacto@bartulosbazar.com">
+				<div class="Imagen-2">
+					<div class="Cuadro">
+						<h2 class="Cuadro-titulo">CATÁLOGO ONLINE</h2>
+						<h3 class="Cuadro-subtitulo">Contactanos</h3>
+					</div> <!-- / Cuadro -->
+				</div> <!--/ Imagen-2 -->
+			</a>
+
+			<a href="mailto:contacto@bartulosbazar.com">
+				<div class="Imagen-3">
+					<div class="Cuadro">
+						<h2 class="Cuadro-titulo">DESCUENTOS</h2>
+						<h3 class="Cuadro-subtitulo">Contactanos</h3>
+					</div> <!-- / Cuadro -->
+				</div> <!--/ Imagen-3 -->
+			</a>
+
+			<a href="empresa.php">
+				<div class="Imagen-4">
+					<div class="Cuadro">
+						<h2 class="Cuadro-titulo">Confian en nosotros</h2>
+						<h3 class="Cuadro-subtitulo">VER MAS</h3>
+					</div> <!-- / Cuadro -->
+				</div> <!--/ Imagen-4 -->
+			</a>
 		</section> <!--/ Destacados -->
 
 		<section class="Servicios">
@@ -111,38 +122,41 @@
 
 			<div class="Titulo">
 				<div class="Titulo-col1Interno"></div> <!-- / Titulo-col1 -->
-				<div class="Titulo-col2Interno">
-					<h2>CÓMO SOLICITO PRESUPUESTO?</h2>
-					<br>
-					<h3>En cuatro sencillos pasos para que coticemos tu pedido</h3>
-				</div> <!-- / Titulo-col2 -->
+					<a href="contacto.php">
+						<div class="Titulo-col2Interno">
+							<h2>Para solicitar tu presupuesto</h2>
+							<br>
+							<h3>Llamanos o mandanos un mail</h3>
+						</div> <!-- / Titulo-col2 -->
+					</a>
 				<div class="Titulo-col3"></div> <!-- / Titulo-col2 -->
 			</div> <!-- / Titulo -->
 
-			<section class="Presupuestar">
+			<!--<section class="Presupuestar">
 				<div class="Presupuestar-1">
 					<img src="public/images/paso1.jpg" alt="Pasos de compra 1">
 					<p>INGRESA A NUESTRA <span class="Colores">SECCION PRODUCTOS</span></p>
 				</div> <!-- / Presupuestar-1 -->
 
-				<div class="Presupuestar-2">
+				<!--<div class="Presupuestar-2">
 					<img src="public/images/paso2.jpg" alt="Pasos de compra 2">
 					<p><span class="Colores">BUSCA TODO LO QUE NECESITAS</span> EN NUESTROS CATALOGOS</p>
 				</div> <!-- / Presupuestar-2 -->
 
-				<div class="Presupuestar-3">
+				<!--<div class="Presupuestar-3">
 					<img src="public/images/paso3.jpg" alt="Pasos de compra 3">
 					<p>ELEGI LOS QUE QUERES Y <span class="Colores">CARGALOS AL CARRITO DE PRESUPUESTO</span></p>
 				</div> <!-- / Presupuestar-3 -->
 
-				<div class="Presupuestar-4">
+				<!--<div class="Presupuestar-4">
 					<img src="public/images/paso4.jpg" alt="Pasos de compra 4">
 					<p>LLENA TUS DATOS, <span class="Colores">Y ENVIANOS TU PEDIDO. !EN BREVE TE ESTAREMOS CONTACTANDO!</span></p>
 				</div> <!-- / Presupuestar-4 -->
-			</section> <!-- / Presupuestar -->
+			<!--</section> <!-- / Presupuestar -->
 
 
-		<section class="Imagen-separador">
+
+		<!--<section class="Imagen-separador">
 			<img src="public/images/puntos.jpg" alt="Puntos">
 		</section> <!-- / Imagen-separador -->
 

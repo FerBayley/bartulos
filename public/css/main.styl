@@ -10,6 +10,8 @@ body
 h1
 	margin 0
 	padding 0
+a
+	text-decoration none
 footer
 	background-color #FFF
 	height auto
@@ -269,15 +271,19 @@ header
 	margin 0 auto
 	max-width 1100px
 	width 100%
+	a
+		text-decoration none
+	a:hover
+		opacity .8
 	.Imagen-1
-		background-image url('../../public/images/destacados/destacado1.png')
+		background-image url('../../public/images/destacados/losa.png')
 		display inline-block
 		margin 0 .3em 0 .3em
 		vertical-align top
 		height 251px
 		width 254px
 	.Imagen-2
-		background-image url('../../public/images/destacados/destacado2.png')
+		background-image url('../../public/images/destacados/cubiertos.png')
 		display inline-block
 		margin 0 .3em 0 .3em
 		vertical-align top
@@ -291,7 +297,7 @@ header
 		height 251px
 		width 254px
 	.Imagen-4
-		background-image url('../../public/images/destacados/destacado4.png')
+		background-image url('../../public/images/destacados/marcas.png')
 		display inline-block
 		margin 0 .3em 0 .3em
 		vertical-align top
@@ -331,6 +337,10 @@ header
 					color #231F20
 					font-size .8em
 					padding .3em .5em .3em .5em
+					-webkit-transition all 0.5s ease-in
+					-moz-transition all 0.5s ease-in
+					-o-transition all 0.5s ease-in
+					transition all 0.5s ease-in
 					text-decoration none
 				a:hover
 					color #FFF
@@ -340,6 +350,10 @@ header
 					-moz-border-radius .4em
 					-ms-border-radius .4em
 					-o-border-radius .4em
+					-webkit-transition all 0.5s ease-in
+					-moz-transition all 0.5s ease-in
+					-o-transition all 0.5s ease-in
+					transition all 0.5s ease-in
 	&-c
 		height auto
 		display inline-block
@@ -351,6 +365,8 @@ header
 				display inline-block
 				list-style none
 				padding 0 .3em 0 .3em
+				a:hover
+					opacity .7
 	&-1
 		display inline-block
 		vertical-align middle
@@ -1180,6 +1196,45 @@ header
 	margin 2em 0 0 0
 	display inline-block
 	width 70%
+
+.TituloContingencia 
+	height auto
+	color #b73500
+	font-family 'Biryani', sans-serif
+	margin -3em 0 7em 0
+	text-align center
+	width 100%
+	h3
+		margin 0 0 1.5em 0
+	a
+		background-color #b73500
+		border-radius .3em .3em .3em .3em
+		-webkit-border-radius .3em .3em .3em .3em
+		-moz-border-radius .3em .3em .3em .3em
+		-o-border-radius .3em .3em .3em .3em
+		-ms-border-radius .3em .3em .3em .3em
+		color #FFF
+		height auto
+		padding .3em 1em .3em 1em
+	a:hover
+		opacity .8
+.Presupuestar
+	opacity .2
+.BotonCont
+	text-align center
+	margin 2em 0 .5em 0
+	a
+		background-color #b73500
+		border-radius .3em .3em .3em .3em
+		-webkit-border-radius .3em .3em .3em .3em
+		-moz-border-radius .3em .3em .3em .3em
+		-o-border-radius .3em .3em .3em .3em
+		-ms-border-radius .3em .3em .3em .3em
+		height auto
+		color #FFF
+		padding .5em 3em .5em 3em
+	a:hover
+		opacity .8
 
 @media screen and (max-width: 1025px)
 	.Destacados

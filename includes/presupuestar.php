@@ -1,12 +1,19 @@
 <div class="Titulo-productos">
-	<div class="Titulo-col1"></div> <!-- / Titulo-col1 -->
-	<div class="Titulo-col2">
+	<!--<div class="Titulo-col1"></div> <!-- / Titulo-col1 --> 
+	<!--<div class="Titulo-col2">
 		<h2>CÓMO SOLICITO PRESUPUESTO?</h2>
 		<br>
 		<h3>En 4 sencillos pasos para que coticemos tu pedido:</h3>
 	</div> <!-- / Titulo-col2 -->
-	<div class="Titulo-col3"></div> <!-- / Titulo-col2 -->
+	<!--<div class="Titulo-col3"></div> <!-- / Titulo-col2 -->
 </div> <!-- / Titulo -->
+
+
+<div class="TituloContingencia">
+	<h2>Por el momento estamos organizando los bártulos.</h2>
+	<h3>Igualmente esparmos tus consultas, llamanos o mandanos un mail</h3>
+	<a href="contacto.php">CONTACTO</a>
+</div>
 
 <section class="Presupuestar">
 	<div class="Presupuestar-1">
