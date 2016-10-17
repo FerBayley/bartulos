@@ -8,6 +8,7 @@
 	<!-- VIEWPORT -->
 	<link rel="stylesheet" href="public/css/normalize.css" />
 	<link rel="stylesheet" href="public/css/main.css" />
+	<link rel="stylesheet" href="public/css/responsive.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>

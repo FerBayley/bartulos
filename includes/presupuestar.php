@@ -11,7 +11,7 @@
 
 <div class="TituloContingencia">
 	<h2>Por el momento estamos organizando los bártulos.</h2>
-	<h3>Igualmente esparmos tus consultas, llamanos o mandanos un mail</h3>
+	<h3>Igualmente esperamos tus consultas, llamanos o mandanos un mail</h3>
 	<a href="contacto.php">CONTACTO</a>
 </div>
 

@@ -8,6 +8,7 @@
 	<!-- VIEWPORT -->
 	<link rel="stylesheet" href="public/css/normalize.css" />
 	<link rel="stylesheet" href="public/css/main.css" />
+	<link rel="stylesheet" href="public/css/responsive.css" />
 	<link rel="stylesheet" href="public/css/responsiveslides.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -27,10 +28,10 @@
 					<li><a href="contacto.php">CONTACTO</a></li>
 				</ul>
 
-				<ul class="RedesBg">
+				<!-- <ul class="RedesBg">
 					<li>
 						<a href="https://www.facebook.com/bartulosbazargastronomico/?fref=ts" target="_blanck">
-							<img src="public/images/facebook-header.png" alt="Facebook">
+							<img src="public/images/facebook-header.png" width="40px" height="40px" alt="Facebook">
 						</a>
 					</li>
 					<li>
