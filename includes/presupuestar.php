@@ -17,21 +17,21 @@
 
 <section class="Presupuestar">
 	<div class="Presupuestar-1">
-		<img src="public/images/paso1.jpg" alt="">
+		<img src="assets/images/paso1.jpg" alt="">
 			<p>INGRESA A NUESTRA <span class="Colores">SECCION PRODUCTOS</span></p>
 	</div> <!-- / Presupuestar-1 -->
 	<div class="Presupuestar-2">
-		<img src="public/images/paso2.jpg" alt="">
+		<img src="assets/images/paso2.jpg" alt="">
 			<p><span class="Colores">BUSCA TODO LO QUE NECESITAS</span> EN NUESTROS CATALOGOS</p>
 	</div> <!-- / Presupuestar-2 -->
 
 <div class="Presupuestar-3">
-	<img src="public/images/paso3.jpg" alt="">
+	<img src="assets/images/paso3.jpg" alt="">
 		<p>ELEGI LOS QUE QUERES Y <span class="Colores">CARGALOS AL CARRITO DE PRESUPUESTO</span></p>
 </div> <!-- / Presupuestar-3 -->
 
 <div class="Presupuestar-4">
-	<img src="public/images/paso4.jpg" alt="">
+	<img src="assets/images/paso4.jpg" alt="">
 		<p>LLENA TUS DATOS, <span class="Colores">Y ENVIANOS TU PEDIDO. !EN BREVE TE ESTAREMOS CONTACTANDO!</span></p>
 </div> <!-- / Presupuestar-4 -->
 </section> <!-- / Presupuestar -->

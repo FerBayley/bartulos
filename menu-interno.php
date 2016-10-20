@@ -6,8 +6,8 @@
 			<li><a href="productos.php">PRODUCTOS</a></li>
 			<li><a href="novedades.php">NOVEDADES</a></li>
 			<li><a href="contacto.php">CONTACTO</a></li>
-			<li class="Mini"><a href="#"><img src="public/images/facebook-header.png" alt="Facebook"></a></li>
-			<li class="Mini"><a href="#"><li><a href="#"><img src="public/images/instagram-header.png" alt="Instagram"></a></li></a></li>
+			<li class="Mini"><a href="#"><img src="assets/images/facebook-header.png" alt="Facebook"></a></li>
+			<li class="Mini"><a href="#"><li><a href="#"><img src="assets/images/instagram-header.png" alt="Instagram"></a></li></a></li>
 		</ul>
 	</div> <!-- / Menu-Interno -->
 </div> <!-- / Interno-2 -->

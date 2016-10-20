@@ -6,9 +6,9 @@
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<!-- VIEWPORT -->
-	<link rel="stylesheet" href="public/css/normalize.css" />
-	<link rel="stylesheet" href="public/css/main.css" />
-	<link rel="stylesheet" href="public/css/responsive.css" />
+	<link rel="stylesheet" href="assets/css/normalize.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
@@ -20,7 +20,7 @@
 			<div class="Interno-a">
 				<h1>
 					<a href="index.php">
-						<img src="public/images/logo-interno.png" alt="Bartulos Bazar">
+						<img src="assets/images/logo-interno.png" alt="Bartulos Bazar">
 					</a>
 				</h1>
 			</div> <!-- / Interno-a -->
@@ -40,11 +40,11 @@
 					<li>
 						<a href="https://www.facebook.com/bartulosbazargastronomico/?fref=ts" 
 						target="_blanck">
-							<img src="public/images/facebook-header.png" alt="Facebook">
+							<img src="assets/images/facebook-header.png" alt="Facebook">
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck"><img src="public/images/instagram-header.png" alt="Instagram">
+						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck"><img src="assets/images/instagram-header.png" alt="Instagram">
 						</a>
 					</li>
 				</ul>
@@ -52,11 +52,11 @@
 		</header> <!-- / Interno -->
 
 		<section class="Sombra">
-			<img src="public/images/sombrabotonera.png" alt="Sombra">
+			<img src="assets/images/sombrabotonera.png" alt="Sombra">
 		</section> <!-- / Sombra -->
 
 		<section class="Imagen-principalEmpresa">
-			<img src="public/images/img-empresa.jpg" alt="Bartulos Bazar">
+			<img src="assets/images/img-empresa.jpg" alt="Bartulos Bazar">
 		</section> <!-- / Imagen-principalEmpresa -->
 
 		<section class="Descripcion-empresa">
@@ -73,7 +73,7 @@
 
 		<section class="More">
 			<div class="More-1">
-				<img src="public/images/vajilla.png" alt="Vajilla">
+				<img src="assets/images/vajilla.png" alt="Vajilla">
 			</div> <!-- / More-1 -->
 
 			<div class="More-2">
@@ -97,27 +97,27 @@
 
 		<section class="Clientes">
 			<div class="Clientes-1">
-				<img src="public/images/lospetersen-logo.png" alt="Los Petersen">
-				<img src="public/images/demuru-logo.png" alt="Juan Pedro Demuru">
-				<img src="public/images/bradley-logo.png" alt="Bradley">
+				<img src="assets/images/lospetersen-logo.png" alt="Los Petersen">
+				<img src="assets/images/demuru-logo.png" alt="Juan Pedro Demuru">
+				<img src="assets/images/bradley-logo.png" alt="Bradley">
 			</div> <!-- / Clientes-1 -->
 
 			<div class="Clientes-2">
-				<img src="public/images/hilton-logo.png" alt="Hilton">
-				<img src="public/images/roux-logo.png" alt="Roux">
-				<img src="public/images/grandwich-logo.png" alt="Grand">
+				<img src="assets/images/hilton-logo.png" alt="Hilton">
+				<img src="assets/images/roux-logo.png" alt="Roux">
+				<img src="assets/images/grandwich-logo.png" alt="Grand">
 			</div> <!-- / Clientes-2 -->
 
 			<div class="Clientes-3">
-				<img src="public/images/peugeotlounge-logo.png" alt="Peugeot">
-				<img src="public/images/donjulio-logo.png" alt="Don Julio">
-				<img src="public/images/palta-logo.png" alt="Palta">
+				<img src="assets/images/peugeotlounge-logo.png" alt="Peugeot">
+				<img src="assets/images/donjulio-logo.png" alt="Don Julio">
+				<img src="assets/images/palta-logo.png" alt="Palta">
 			</div> <!-- / Clientes-3 -->
 
 			<div class="Clientes-4">
-				<img src="public/images/lajuvenial-logo.png" alt="La Juvenil">
-				<img src="public/images/mauricioasta-logo.png" alt="Mauriciio Asta">
-				<img src="public/images/casinomagic-logo.png" alt="Casino Magic">
+				<img src="assets/images/lajuvenial-logo.png" alt="La Juvenil">
+				<img src="assets/images/mauricioasta-logo.png" alt="Mauriciio Asta">
+				<img src="assets/images/casinomagic-logo.png" alt="Casino Magic">
 			</div> <!-- / Clientes-4 -->
 		</section> <!-- / Clientes -->
 
@@ -134,7 +134,7 @@
 
 		<section class="Inoxigas">
 			<div class="Inoxigas-1">
-				<img src="public/images/logo-biginterno.jpg" height="159px" width="291px" alt="Inoxigas">
+				<img src="assets/images/logo-biginterno.jpg" height="159px" width="291px" alt="Inoxigas">
 			</div> <!-- / Inoxigas-1 -->
 
 			<div class="Inoxigas-2">
@@ -152,7 +152,7 @@
 		</section> <!-- / Inoxigas-empresa -->
 
 		<section class="Urgencias">
-			<img src="public/images/urgencias.jpg" alt="">
+			<img src="assets/images/urgencias.jpg" alt="">
 		</section> <!-- / Urgencias -->
 		
 	<?php include("includes/footer.php"); ?>

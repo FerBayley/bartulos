@@ -6,10 +6,10 @@
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<!-- VIEWPORT -->
-	<link rel="stylesheet" href="public/css/normalize.css" />
-	<link rel="stylesheet" href="public/css/main.css" />
-	<link rel="stylesheet" href="public/css/responsive.css" />
-	<link rel="stylesheet" href="public/css/responsiveslides.css" />
+	<link rel="stylesheet" href="assets/css/normalize.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<link rel="stylesheet" href="assets/css/responsiveslides.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
@@ -19,7 +19,7 @@
 		<header>
 		<!--<span class="Burguer">MENU</span>-->
 			<section class="Menu">
-				<h1><img src="public/images/logo.png" alt="Bartulos Bazar"></h1>
+				<h1><img src="assets/images/logo.png" alt="Bartulos Bazar"></h1>
 				<ul>
 					<li><span>HOME</span></li>
 					<li><a href="empresa.php">EMPRESA</a></li>
@@ -45,11 +45,11 @@
 
 			<section class="ImagenesSlider">
 				<ul class="rslides">
-				  <li><img src="public/images/slider1.jpg" alt=""></li>
-				  <li><img src="public/images/slider2.png" alt=""></li>
-				  <li><img src="public/images/slider3.png" alt=""></li>
-				  <li><img src="public/images/slider4.png" alt=""></li>
-				  <li><img src="public/images/slider5.png" alt=""></li>
+				  <li><img src="assets/images/slider1.jpg" alt=""></li>
+				  <li><img src="assets/images/slider2.png" alt=""></li>
+				  <li><img src="assets/images/slider3.png" alt=""></li>
+				  <li><img src="assets/images/slider4.png" alt=""></li>
+				  <li><img src="assets/images/slider5.png" alt=""></li>
 				</ul> <!-- / rslides -->
 			</section> <!-- / ImagenesSlider -->
 		</header> <!--/ header -->
@@ -103,7 +103,7 @@
 
 		<section class="Servicios">
 			<div class="Servicios-logo">
-				<img src="public/images/salero-big.png" alt="Bartulos Bazar">
+				<img src="assets/images/salero-big.png" alt="Bartulos Bazar">
 			</div> <!--/ Servicios-logo -->
 
 			<div class="Servicios-descripcion">
@@ -162,7 +162,7 @@
 		</section> <!-- / Imagen-separador -->
 
 		<section class="Urgencias">
-			<img src="public/images/urgencias.jpg" alt="Urgencias Bartulos">
+			<img src="assets/images/urgencias.jpg" alt="Urgencias Bartulos">
 		</section> <!-- / Urgencias -->
 
 		<?php include("includes/footer.php"); ?>
@@ -178,7 +178,7 @@
 		//$Desplegable.classList.toggle('active')
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="public/js/responsiveslides.js"></script>
+	<script src="assets/js/responsiveslides.js"></script>
 	<script>
  	 	$(function() {
     		$(".rslides").responsiveSlides();

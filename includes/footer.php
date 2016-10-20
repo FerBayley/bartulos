@@ -1,6 +1,6 @@
 <footer>
 	<div class="footer-col1">
-		<img src="public/images/logo-footer.png" alt="Bartulos Bazar">
+		<img src="assets/images/logo-footer.png" alt="Bartulos Bazar">
 	</div> <!-- /footer-col1 -->
 
 	<div class="footer-col2">
@@ -26,13 +26,13 @@
 			<br>
 			<li>
 				<a href="#">
-					<img src="public/images/facebook-footer.png" alt="Facebook Bartulos Bazar">bartulosbazar
+					<img src="assets/images/facebook-footer.png" alt="Facebook Bartulos Bazar">bartulosbazar
 				</a>
 			</li>
 			<br>
 			<li>
 				<a href="#">
-					<img src="public/images/instagram-footer.png" alt="Instagram Bartulos Bazar">@bartulosbazar
+					<img src="assets/images/instagram-footer.png" alt="Instagram Bartulos Bazar">@bartulosbazar
 				</a>
 			</li>
 		</ul>

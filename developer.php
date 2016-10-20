@@ -6,9 +6,9 @@
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<!-- VIEWPORT -->
-	<link rel="stylesheet" href="public/css/normalize.css" />
-	<link rel="stylesheet" href="public/css/main.css" />
-	<link rel="stylesheet" href="public/css/responsive.css" />
+	<link rel="stylesheet" href="assets/css/normalize.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
@@ -18,7 +18,7 @@
 			<div class="Interno-a">
 				<h1>
 					<a href="index.php">
-						<img src="public/images/logo-interno.png" alt="Bartulos Bazar">
+						<img src="assets/images/logo-interno.png" alt="Bartulos Bazar">
 					</a>
 				</h1>
 			</div> <!-- / Interno-a -->
@@ -38,11 +38,11 @@
 					<li>
 						<a href="https://www.facebook.com/bartulosbazargastronomico/?fref=ts" 
 						target="_blanck">
-							<img src="public/images/facebook-header.png" alt="Facebook">
+							<img src="assets/images/facebook-header.png" alt="Facebook">
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck"><img src="public/images/instagram-header.png" alt="Instagram">
+						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck"><img src="assets/images/instagram-header.png" alt="Instagram">
 						</a>
 					</li>
 				</ul>
@@ -50,12 +50,12 @@
 		</header> <!-- / Interno -->
 
 		<section class="Sombra">
-			<img src="public/images/sombrabotonera.png" alt="Sombra">
+			<img src="assets/images/sombrabotonera.png" alt="Sombra">
 		</section> <!-- / Sombra -->
 
 			<section class="Developer">
 				<div class="Conti">
-					<img src="public/images/conti.png" alt="Bartulos Bazar Gastronomico">
+					<img src="assets/images/conti.png" alt="Bartulos Bazar Gastronomico">
 				</div> <!-- / Conti -->
 			</section> <!-- / Developer -->
 
@@ -66,7 +66,7 @@
 				<br>
 
 				<section class="Urgencias">
-					<img src="public/images/urgencias.jpg" alt="">
+					<img src="assets/images/urgencias.jpg" alt="">
 				</section> <!-- / Urgencias -->
 
 			<!--<section class="DatosDeContato">

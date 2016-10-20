@@ -10,8 +10,8 @@
 
 	<div class="Redes">
 		<ul>
-			<li><a href="#"><img src="public/images/facebook.png" alt="Facebook"></a></li>
-			<li><a href="#"><img src="public/images/instagram.png" alt="Instagram"></a></li>
+			<li><a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a></li>
+			<li><a href="#"><img src="assets/images/instagram.png" alt="Instagram"></a></li>
 		</ul>
 	</div> <!-- /Redes -->
 </div> <!-- / Desplegable -->

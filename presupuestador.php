@@ -6,9 +6,9 @@
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<!-- VIEWPORT -->
-	<link rel="stylesheet" href="public/css/normalize.css" />
-	<link rel="stylesheet" href="public/css/main.css" />
-	<link rel="stylesheet" href="public/css/responsive.css" />
+	<link rel="stylesheet" href="assets/css/normalize.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
@@ -19,7 +19,7 @@
 			<div class="Interno-a">
 				<h1>
 					<a href="index.php">
-						<img src="public/images/logo-interno.png" alt="Bartulos Bazar">
+						<img src="assets/images/logo-interno.png" alt="Bartulos Bazar">
 					</a>
 				</h1>
 			</div> <!-- / Interno-a -->
@@ -39,11 +39,11 @@
 					<li>
 						<a href="https://www.facebook.com/bartulosbazargastronomico/?fref=ts" 
 						target="_blanck">
-							<img src="public/images/facebook-header.png" alt="Facebook">
+							<img src="assets/images/facebook-header.png" alt="Facebook">
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck"><img src="public/images/instagram-header.png" alt="Instagram">
+						<a href="https://www.instagram.com/bartulos_bazargastronomico/" target="_blanck"><img src="assets/images/instagram-header.png" alt="Instagram">
 						</a>
 					</li>
 				</ul>
@@ -52,12 +52,12 @@
 		</header> <!-- / Interno -->
 
 		<section class="Sombra">
-			<img src="public/images/sombrabotonera.png" alt="Sombra">
+			<img src="assets/images/sombrabotonera.png" alt="Sombra">
 		</section> <!-- / Sombra -->
 
 		<section class="Productos">
 			<div class="Sec1">
-				<img src="public/images/star.jpg" width="123px" height="119px" alt="">
+				<img src="assets/images/star.jpg" width="123px" height="119px" alt="">
 			</div> <!-- / Sec1 -->
 
 			<div class="Sec2">
@@ -97,9 +97,9 @@
 		</div> <!-- / Novedades-1 -->
 		
 		<div class="ColumnaPresupuestador">
-			<img src="public/images/maria.jpg" alt="">
+			<img src="assets/images/maria.jpg" alt="">
 			<p class="ColumnaPresupuestador-texto">CÓDIGO #2451009</p>
-			<img src="public/images/miniaturas.jpg" alt="">
+			<img src="assets/images/miniaturas.jpg" alt="">
 		</div> <!-- / ColumnaPresupuestador -->
 
 		<div class="ColumnaPresupuestador2">
@@ -109,7 +109,7 @@
 			</ul>
 			<h2>Chafing baño maría</h2>
 			<h3>rectangular doble, con tapa rebatible capacidad: 8000 cc.</h3>
-			<img src="public/images/counter.jpg" alt="">
+			<img src="assets/images/counter.jpg" alt="">
 			<div class="Linea"></div> <!-- / Linea -->
 				<a href="#">AGREGAR AL PEDIDO</a>
 		</div> <!-- / ColumnaPresupuestador2 -->
@@ -127,28 +127,28 @@
 
 	<section class="Relacionados">
 		<div class="Relacionados-1">
-			<img src="public/images/acero1.jpg" alt="">
+			<img src="assets/images/acero1.jpg" alt="">
 			<p>CHAFING BAÑO MARÍA RECTANGULAR DOBLE con Tapa Rebatible Capacidad: 8000 cc</p>
 			<p>...........................................</p>
 			<a href="#">AGREGAR AL PEDIDO</a>
 		</div> <!-- / Relacionados-1 -->
 
 		<div class="Relacionados-2">
-			<img src="public/images/copas.jpg" alt="">
+			<img src="assets/images/copas.jpg" alt="">
 			<p>CHAFING BAÑO MARÍA RECTANGULAR DOBLE con Tapa Rebatible Capacidad: 8000 cc</p>
 			<p>...........................................</p>
 			<a href="#">AGREGAR AL PEDIDO</a>
 		</div> <!-- / Relacionados-1 -->
 
 		<div class="Relacionados-3">
-			<img src="public/images/horno.jpg" alt="">
+			<img src="assets/images/horno.jpg" alt="">
 			<p>CHAFING BAÑO MARÍA RECTANGULAR DOBLE con Tapa Rebatible Capacidad: 8000 cc</p>
 			<p>...........................................</p>
 			<a href="#">AGREGAR AL PEDIDO</a>
 		</div> <!-- / Relacionados-1 -->
 
 		<div class="Relacionados-4">
-			<img src="public/images/acero1.jpg" alt="">
+			<img src="assets/images/acero1.jpg" alt="">
 			<p>CHAFING BAÑO MARÍA RECTANGULAR DOBLE con Tapa Rebatible Capacidad: 8000 cc</p>
 			<p>...........................................</p>
 			<a href="#">AGREGAR AL PEDIDO</a>
