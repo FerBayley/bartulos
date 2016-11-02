@@ -18,7 +18,7 @@ if(empty($_REQUEST['nombre']) || empty($_REQUEST['empresa']) || empty($_REQUEST[
 		$de .="MIME-Version: 1.0\n"; 
 		$de .= "Content-type: text/html; charset=iso-8859-1\r\n";
 		$de .= "Content-type: text/html; charset=UTF-8\r\n"; 
-		$de .="From: WWW.DOSPUNTOCLICK.COM <fernando.bayley@gmail.com>\r\n";
+		$de .="From: www.bartulosbazar.com <fernando.bayley@gmail.com, ventas@bartulosbazar.com>\r\n";
 		//ASUNTO
 		$asunto="Nuevo contacto por sitio web";
 		
@@ -33,7 +33,7 @@ if(empty($_REQUEST['nombre']) || empty($_REQUEST['empresa']) || empty($_REQUEST[
 					Telefono: <b>".$telefono."</b><br><br>
 					Mensaje: <b>".$mensaje."</b><br><br>
 					<hr>
-					<a href='http://www.dospuntoclick.com' target='_blank'>http://www.dospuntoclick.com</a>
+					<a href='http://www.bartulosbazar.com' target='_blank'>http://www.bartulosbazar.com</a>
 				";
 
 		//ENVIO DE CORREO

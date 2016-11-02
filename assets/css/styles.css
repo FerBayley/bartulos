@@ -1,0 +1,167 @@
+.Buscador {
+	height: auto;
+	margin: auto;
+	margin-bottom: 5em;
+	margin-top: 1em;
+	max-width: 1000px;
+	width: 100%;
+}
+.Buscador input {
+	border: none;
+	border-bottom: solid 1px #333;
+	border-radius: none;
+	width: 50%;
+	margin: -2.7em 0 0 0;
+	vertical-align: middle;
+	width: 40%;
+}
+.Buscador img {
+	padding: .7em 0 0 0;
+}
+.Columnas {
+	height: auto;
+	margin: auto;
+	margin-top: 1.5em;
+	max-width: 1200px;
+	text-align: center;
+	width: 88%;
+}
+.Columnas img {
+	height: auto;
+	width: 100%;
+}
+
+/* ========= COLUMNA 1 ========== */
+.Columnas .Columnas-1 {
+	display: inline-block;
+	float: left;
+	height: auto;
+	vertical-align: top;
+	width: 20%;
+}
+.Columnas .Columnas-1 h2 {
+	font-size: .9em;
+	color: #b73500;
+	text-align: left;
+	margin: 2.5em 0 0 0;
+	padding: 0 0 .3em 1.3em;
+}
+.Columnas .Columnas-1 ul li {
+	list-style: none;
+	line-height: 1.4em;
+	padding: 0 0 0 1.3em;
+	text-align: left;
+}
+.Columnas .Columnas-1 ul li a {
+	color: #333;
+	font-size: .7em;
+	text-decoration: none;
+}
+.Columnas .Columnas-1 ul li a:hover {
+	color: #DDD;
+	font-size: .7em;
+}
+/* ========= / COLUMNA 1 ========== */
+
+/* ========= COLUMNA 2 ========== */
+.Columnas .Columnas-2 {
+	display: inline-block;
+	height: auto;
+	margin: 0 .8em 0 .8em;
+	vertical-align: top;
+	width: 23%;
+}
+.Columnas .Columnas-2 h2 {
+	font-size: .9em;
+	font-weight: 100;
+	line-height: 1.7em;
+}
+.Columnas .Columnas-2 a {
+	background-color: #b73500;
+	border-radius: 4px;
+	color: #FFF;
+	font-size: .8em;
+	font-weight: 100;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	padding: .5em 1.2em .5em 1.2em;
+	text-decoration: none;
+}
+.Columnas .Columnas-2 p {
+	margin: 0 0 1em 0;
+}
+/* ========= / COLUMNA 2 ========== */
+
+/* ========= COLUMNA 3 ========== */
+.Columnas .Columnas-3 {
+	display: inline-block;
+	height: auto;
+	margin: 0 .8em 0 .8em;
+	vertical-align: top;
+	width: 23%;
+}
+.Columnas .Columnas-3 h2 {
+	font-size: .9em;
+	font-weight: 100;
+	line-height: 1.7em;
+}
+.Columnas .Columnas-3 a {
+	background-color: #b73500;
+	border-radius: 4px;
+	color: #FFF;
+	font-size: .8em;
+	font-weight: 100;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	padding: .5em 1.2em .5em 1.2em;
+	text-decoration: none;
+}
+.Columnas .Columnas-3 p {
+	margin: 0 0 1em 0;
+}
+/* ========= / COLUMNA 3 ========== */
+
+/* ========= COLUMNA 4 ========== */
+.Columnas .Columnas-4 {
+	display: inline-block;
+	height: auto;
+	margin: 0 .8em 0 .8em;
+	vertical-align: top;
+	width: 23%;
+}
+.Columnas .Columnas-4 h2 {
+	font-size: .9em;
+	font-weight: 100;
+	line-height: 1.7em;
+}
+.Columnas .Columnas-4 a {
+	background-color: #b73500;
+	border-radius: 4px;
+	color: #FFF;
+	font-size: .8em;
+	font-weight: 100;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	padding: .5em 1.2em .5em 1.2em;
+	text-decoration: none;
+}
+.Columnas .Columnas-4 p {
+	margin: 0 0 1em 0;
+}
+/* ========= / COLUMNA 4 ========== */
+
+.Separador {
+	margin: 5em 0 5em 0;
+}
+.Separador-listas {
+	border-bottom: dashed 1px #333;
+	height: 3px;
+	margin: 1.5em 0 0 1em;
+	width: 70%;
+}
