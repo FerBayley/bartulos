@@ -84,5 +84,7 @@
 	<?php include("includes/path.php"); ?>
 	<?php include("includes/footer.php"); ?>
 	</section> <!--/Container -->
+
+	<?php include_once("includes/analyticstracking.php") ?>
 </body>
 </html>

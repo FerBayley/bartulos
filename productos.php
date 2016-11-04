@@ -80,9 +80,11 @@
 			<div class="Galeria-3">
 				<img src="assets/images/cubiertos.png" alt="Cubiertos">
 				<h2>CUBIERTOS</h2>
-
-				<img src="assets/images/vajilla-catalogo.png" alt="Vajilla">
-				<h2>VAJILLA</h2>
+				
+				<a href="vajilla.php">
+					<img src="assets/images/vajilla-catalogo.png" alt="Vajilla">
+					<h2>VAJILLA</h2>
+				</a>
 			</div> <!-- / Productos-3 -->
 
 			<div class="Galeria-4">
@@ -100,5 +102,6 @@
 	<?php include("includes/path.php"); ?>
 	<?php include("includes/footer.php"); ?>
 	</section> <!--/Container -->
+	<?php include_once("includes/analyticstracking.php") ?>
 </body>
 </html>

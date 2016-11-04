@@ -208,6 +208,7 @@
   			});
 		});
 	</script> -->
+	<?php include_once("includes/analyticstracking.php") ?>
 </body>
 </html>
 

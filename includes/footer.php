@@ -25,13 +25,13 @@
 			<li>SEGUINOS</li>
 			<br>
 			<li>
-				<a href="#">
+				<a href="https://www.facebook.com/bartulosbazargastronomico/?fref=ts" target="_blanck">
 					<img src="assets/images/facebook-footer.png" alt="Facebook Bartulos Bazar">bartulosbazar
 				</a>
 			</li>
 			<br>
 			<li>
-				<a href="#">
+				<a href="https://www.instagram.com/inoxigasargentina/" target="_blanck">
 					<img src="assets/images/instagram-footer.png" alt="Instagram Bartulos Bazar">@bartulosbazar
 				</a>
 			</li>

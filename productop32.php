@@ -2,7 +2,7 @@
 <html lang="es-AR">
 <head>
 	<meta charset="UTF-8">
-	<title>Bartulos Bazar - Productos</title>
+	<title>Bartulos Bazar - Producto P-32</title>
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<!-- VIEWPORT -->
@@ -56,12 +56,13 @@
 		</section> <!-- / Sombra -->
 
 		<section class="Productos">
-			<h2>Accesorios</h2>
+			<h2>Vajilla</h2>
 			<!--<h3>Seleccione la categoría deseada:</h3> -->
 		</section> <!-- / Productos -->
 
 		<section class="Buscador">
-			BUSCADOR
+			<img src="caja-busqueda.jpg" alt="">
+			<input id="name" class="input" name="name" type="text" placeholder="Ingresa tu búsqueda" />
 		</section> <!-- / Buscador -->
 
 		<section class="Columnas">
@@ -97,80 +98,59 @@
 					<li><a href="#">VIDRIO</a></li>
 				</ul>
 			</div> <!-- / Columnas-1 -->
+			
+				<section class="ColumnasProductos1">
+					<img src="assets/images/productos/p-32.jpg" alt="">
+					<h3>COD: 2372368</h3>
+					...................
+				</section> <!-- / ColumnasProductos1 -->
+
+				<section class="ColumnasProductos2">
+					<div class="Tag">NUEVO!</div>
+					<h2>Titulo del producto a presupuestar</h2>
+					<p>Breve descripción del producto.</p>
+					<h3 class="Cantidad">- 2 +</h3>
+					<div class="BotonAgregar">
+						<a href="#">PRESUPUESTAR</a>
+					</div>
+				</section> <!-- / ColumnasProductos2 -->
+		</section> <!-- / Columnas -->
+
+		<!-- SECCION PROMOCIONES -->
+	<?php include("includes/presupuestar.php"); ?>
+
+	<div class="Relacionados">
+	............................................ Productos relacionados ...........................................
+	</div> <!-- / Relacionados -->
+
+		<section class="Columnas">
+			<div class="Columnas-1">
+			</div> <!-- / Columnas-1 -->
 			<div class="Columnas-2">
 				<img src="assets/images/productos/p-32.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<h2>Breve descripción de este producto</h2>
-				<p>...............................................</p>
-				<a href="#">SOLICITAR PRESUPESTO</a>
-				<div class="Separador"></div> <!-- / Separador -->
-
-				<img src="assets/images/productos/p-5.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<p>Breve descripción de este producto</p>
-				<p>...............................................</p>
-				<a href="#">SOLICITAR PRESUPESTO</a>
-				<div class="Separador"></div> <!-- / Separador -->
-
-				<img src="assets/images/productos/p-12.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<p>Breve descripción de este producto</p>
+				<h2>Nombre de producto Breve descripción de este producto</h2>
 				<p>...............................................</p>
 				<a href="#">SOLICITAR PRESUPESTO</a>
 				<div class="Separador"></div> <!-- / Separador -->
 			</div> <!-- / Columnas-2 -->
 
-
-
 			<div class="Columnas-3">
 				<img src="assets/images/productos/p-33.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<p>Breve descripción de este producto</p>
-				<p>...............................................</p>
-				<a href="#">SOLICITAR PRESUPESTO</a>
-				<div class="Separador"></div> <!-- / Separador -->
-
-				<img src="assets/images/productos/p-24.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<p>Breve descripción de este producto</p>
-				<p>...............................................</p>
-				<a href="#">SOLICITAR PRESUPESTO</a>
-				<div class="Separador"></div> <!-- / Separador -->
-
-				<img src="assets/images/productos/p-16.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<p>Breve descripción de este producto</p>
+				<h2>Nombre de producto Breve descripción de este producto</h2>
 				<p>...............................................</p>
 				<a href="#">SOLICITAR PRESUPESTO</a>
 				<div class="Separador"></div> <!-- / Separador -->
 			</div> <!-- / Columnas-3 -->
 
-
 			<div class="Columnas-4">
-				<img src="assets/images/productos/p-9.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<p>Breve descripción de este producto</p>
-				<p>...............................................</p>
-				<a href="#">SOLICITAR PRESUPESTO</a>
-				<div class="Separador"></div> <!-- / Separador -->
-
-				<img src="assets/images/productos/p-18.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<p>...............................................</p>
-				<a href="#">SOLICITAR PRESUPESTO</a>
-				<div class="Separador"></div> <!-- / Separador -->
-
-				<img src="assets/images/productos/p-19.jpg" alt="">
-				<h2>Nombre de producto</h2>
-				<p>Breve descripción de este producto</p>
+				<img src="assets/images/productos/p-32.jpg" alt="">
+				<h2>Nombre de producto Breve descripción de este producto</h2>
 				<p>...............................................</p>
 				<a href="#">SOLICITAR PRESUPESTO</a>
 				<div class="Separador"></div> <!-- / Separador -->
 			</div> <!-- / Columnas-4 -->
 		</section> <!-- / Columnas -->
 
-		<!-- SECCION PROMOCIONES -->
-	<?php include("includes/presupuestar.php"); ?>
 	<?php include("includes/path.php"); ?>
 	<?php include("includes/footer.php"); ?>
 	</section> <!--/Container -->

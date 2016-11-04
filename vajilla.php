@@ -102,7 +102,7 @@
 				<img src="assets/images/productos/p-32.jpg" alt="">
 				<h2>Nombre de producto Breve descripción de este producto</h2>
 				<p>...............................................</p>
-				<a href="#">SOLICITAR PRESUPESTO</a>
+				<a href="productop32.php">SOLICITAR PRESUPESTO</a>
 				<div class="Separador"></div> <!-- / Separador -->
 
 				<img src="assets/images/productos/p-32.jpg" alt="">
@@ -167,5 +167,6 @@
 	<?php include("includes/path.php"); ?>
 	<?php include("includes/footer.php"); ?>
 	</section> <!--/Container -->
+	<?php include_once("includes/analyticstracking.php") ?>
 </body>
 </html>

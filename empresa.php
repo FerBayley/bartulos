@@ -147,7 +147,7 @@
 						equipamiento de primera calidad y un seguimiento post venta.
 					</p>
 				</article>
-				<a href="#">IR A INOXIGAS</a>
+				<a href="http://www.inoxigas.com.ar" target="_blanck">IR A INOXIGAS</a>
 			</div> <!-- / Inoxigas-2 -->
 		</section> <!-- / Inoxigas-empresa -->
 
@@ -158,5 +158,7 @@
 	<?php include("includes/footer.php"); ?>
 
 	</section> <!--/Container -->
+
+	<?php include_once("includes/analyticstracking.php") ?>
 </body>
 </html>
