@@ -4,9 +4,9 @@
 	</div> <!-- /footer-col1 -->
 
 	<div class="footer-col2">
-		<p>Av. Santa Fe 1643 - C.A.B.A. / Buenos Aires</p>
-		<p>CP. 1480 - Tel. +54 9 11 37 99 74 60</p>
-		<p><a href="mailto:elina@bartulosbazar.com">elina@bartulosbazar.com</a> | <a href="mailto:ventas@bartulosbazar.com">ventas@bartulosbazar.com</a></p>
+		<p>Av.Dr.Honorio Pueyrredón 1076 - B1630CLT Pilar Centro - Buenos Aires</p>
+		<p>Tel. +54 9 11 37 99 74 60</p>
+		<p><a href="mailto:contacto@bartulosbazar.com">contacto@bartulosbazar.com</a> | <a href="mailto:ventas@bartulosbazar.com">ventas@bartulosbazar.com</a></p>
 		<p>&copy; Copyrigth Bartulos - Todos los derechos reservados</p>
 	</div> <!-- /footer-col1 -->
 
