@@ -76,7 +76,8 @@
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.3301980663077!2d-58.90334838489099!3d-34.443765056559016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9d20f1ee1a3b%3A0x33abfec82bf40c4c!2sAv.+Dr.+Honorio+Pueyrred%C3%B3n+1076%2C+B1630CLT+Pilar+Centro%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1481634520887" width="450" height="465" frameborder="0" style="border:0" allowfullscreen></iframe>
 					<p>Av.Dr.Honorio Pueyrredón 1076 - B1630CLT Pilar Centro - Buenos Aires</p>
 					<p>Tel. +54 9 11 37 99 74 60</p>
-					<p><a href="mailto:contacto@bartulosbazar.com">contacto@bartulosbazar.com</a> | <a href="mailto:ventas@bartulosbazar.com">ventas@bartulosbazar.com</a></p>
+					<p><a href="http://www.bartulosbazar.com">www.bartulosbazar.com</a></p>
+					<p><a href="mailto:contacto@bartulosbazar.com">contacto@bartulosbazar.com</a></p>
 				</div> <!-- / Contacto-2 -->
 			</section> <!-- / Contacto -->
 

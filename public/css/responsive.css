@@ -1,0 +1,653 @@
+@media screen and (max-width: 568px) {
+	.Menu {
+		padding: 0;
+		width: 25%;
+	}
+	.Menu img {
+		height: auto;
+		width: 100%;
+	}
+	.ImagenesSlider {
+		height: auto;
+		margin: 2.3em 0 0 1em;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.Menu {
+		box-sizing: border-box;
+		margin-left: 1.3em;
+	}
+	.Destacados .Imagen-1 {
+		background-repeat: no-repeat;
+		background-position: center;
+		height: auto;
+		margin: 0 1.5em 1.5em 1.5em;
+		width: 30%;
+	}
+	.Destacados .Imagen-1 img {
+		height: auto;
+		width: 100%;
+	}
+	.Destacados .Imagen-2 {
+		background-repeat: no-repeat;
+		background-position: center;
+		height: auto;
+		margin: 0 1.5em 1.5em 1.5em;
+		width: 30%;
+	}
+	.Destacados .Imagen-2 img {
+		height: auto;
+		width: 100%;
+	}
+	.Destacados .Imagen-3 {
+		background-repeat: no-repeat;
+		background-position: center;
+		height: auto;
+		margin: 0 1.5em 1.5em 1.5em;
+		width: 30%;
+	}
+	.Destacados .Imagen-3 img {
+		height: auto;
+		width: 100%;
+	}
+	.Destacados .Imagen-4 {
+		background-repeat: no-repeat;
+		background-position: center;
+		height: auto;
+		margin: 0 1.5em 1.5em 1.5em;
+		width: 30%;
+	}
+	.Destacados .Imagen-4 img {
+		height: auto;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	footer {
+		height: auto;
+	}
+	iframe {
+		height: auto;
+		width: 100%;
+	}
+	.BotonCont {
+		height: auto;
+		margin: 1em 0 2em 0;
+	}
+	.Clientes {
+		height: auto;
+		margin: 0;
+		padding: 0; 
+	}
+	.Clientes-1 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Clientes-1 img {
+		height: auto;
+		margin: .5em 0 .5em 0;
+		width: 60%;
+	}
+	.Clientes-2 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Clientes-2 img {
+		height: auto;
+		margin: .5em 0 .5em 0;
+		width: 60%;
+	}
+	.Clientes-3 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Clientes-3 img {
+		height: auto;
+		margin: .5em 0 .5em 0;
+		width: 60%;
+	}
+	.Clientes-4 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Clientes-4 img {
+		height: auto;
+		margin: .5em 0 .5em 0;
+		width: 60%;
+	}
+	.Conti {
+		height: auto;
+		width: 100%;
+	}
+	.Contacto {
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+	.Contacto-1 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Contacto-2 {
+		margin: 0 0 3em 0;
+		padding: 0;
+	}
+	.Contacto-2 p {
+		font-size: 1.1em;
+		text-align: left;
+		margin: 0;
+		padding: .5em 0 .5em 1em;
+	}
+	.Formulario {
+		height: auto;
+		width: 100%;
+	}
+	.Formulario form {
+		height: auto;
+		width: 100%;
+	}
+	.Developer {
+		height: auto;
+		width: 100%;
+	}
+	.Developer img {
+		height: auto;
+		width: 100%;
+	}
+	.footer-col2 {
+		border-bottom: solid 1px #DDD;
+	}
+	.footer-col2 p {
+		font-size: .6em;
+		line-height: 1.3em;
+		padding: .5em 0 .5em 0;
+	}
+	.footer-col3 {
+		font-size: .7em;
+	}
+	.footer-col4, .Face {
+		margin: 3em 0 0 0;
+		padding: .5em 0 0 0;
+	}
+	.Urgencias {
+		margin: 0 0 6em 0;
+	}
+	.Descripcion-empresa {
+		font-size: .8em;
+		margin: 5em 0 0 0;
+		width: 100%;
+	}
+	.Destacados .Imagen-1 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+	.Destacados .Imagen-2 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+	.Destacados .Imagen-3 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+	.Destacados .Imagen-4 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+	.Descripcion-empresa {
+		margin: 3em 0 0 0;
+	}
+	.Descripcion-empresa article p {
+		line-height: 2em;
+		padding: .5em;
+	}
+	.Galeria {
+		margin: 1em 0 0 0;
+		padding: 0;
+	}
+	.Galeria-1, .Galeria-2, .Galeria-3, .Galeria-4 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Inoxigas {
+		margin: 0;
+		padding: 0 0 2em 0;
+		width: 100%;
+	}
+	.Inoxigas a {
+		margin: 0 0 0 1.5em;
+	}
+	.Inoxigas-colpuntos {
+		display: none;
+	}
+	.Inoxigas-1 {
+		height: auto;
+		margin: 0 0 4em 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Inoxigas-1 img {
+		height: auto;
+		width: 100%;
+	}
+	.Inoxigas-2 {
+		height: auto;
+		margin: -1em 0 0 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Inoxigas-2 article p {
+		font-size: 1.2em;
+		padding: 0 1em .5em 1em;
+		width: 100%;
+	}
+	.Inoxigas-coltitulo {
+		font-size: 1.3em;
+		margin: 0 0 .-1em 0;
+		text-align: center;
+		padding: 1em 0 1em 0;
+		width: 100%;
+	}
+	.Interno-b {
+		height: auto;
+		text-align: center;
+		width: 100%;
+	}
+	.Interno-b li {
+		height: auto;
+		margin: 1.3em 0 0 0;
+		width: 30%;
+	}
+	.Interno-c {
+		text-align: center;
+		margin: 1.5em 0 0 0;
+		width: 100%;
+	}
+	.Imagen-principalEmpresa {
+		height: auto;
+	}
+	.Imagen-principalEmpresa img {
+		height: auto;
+		width: 100%;
+	}
+	.Menu {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	.Menu h1 {
+		margin: 0 0 .5em 0;
+	}
+	.Menu img {
+		height: auto;
+		width: 60%;
+	}
+	.Menu ul li {
+		display: inline-block;
+		font-size: .8em;
+		line-height: 2.5em;
+		margin: 0 1.5em 0 1.5em;
+		padding: 0;
+		vertical-align: top;
+	}
+	.More {
+		height: auto;
+		width: 100%;
+	}
+	.More-1 {
+		height: auto;
+		margin: 0;
+		padding: 1em 0 0 0;
+		width: 100%;
+	}
+	.More-2 {
+		height: auto;
+		margin: 3em 0 0 0;
+		padding: 0;
+		width: 100%;
+	}
+	.More-2 article p {
+		line-height: 2em;
+		padding: .7em;
+	}
+	.More-1 img {
+		height: auto;
+		width: 100%;
+	}
+	.Presupuestar {
+		margin: 0 0 4em 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Presupuestar-1, .Presupuestar-2, .Presupuestar-3, .Presupuestar-4 {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Productos {
+		text-align: center;
+	}
+@media screen and (max-width: 412px) {
+	footer {
+		padding: : 2em 0 0 0;
+	}
+	footer .footer-col2 {
+		text-align: center;
+	}
+	footer .footer-col4 .Face {
+		margin: 1em 0 -5em 0;
+		text-align: center;
+	}
+	.Urgencias {
+		margin: 0 0 6em 0;
+	}
+	.Destacados .Imagen-1 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+	.Destacados .Imagen-2 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+	.Destacados .Imagen-3 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+	.Destacados .Imagen-4 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 70%;
+	}
+}
+@media screen and (max-width: 360px) {
+	footer {
+		padding: : 2em 0 0 0;
+	}
+	footer .footer-col2 {
+		text-align: center;
+	}
+	footer .footer-col4 .Face {
+		margin: 1em 0 -5em 0;
+		text-align: center;
+	}
+	.Urgencias {
+		margin: 0 0 6em 0;
+	}
+}
+@media screen and (max-width: 768px) {
+	.Menu {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 2.3em 0 0 .9em;
+	}
+	.Destacados .Imagen-1 {
+		margin: 0 1em 1em 1em;
+	}
+	.Destacados .Imagen-2 {
+		margin: 0 1em 1em 1em;
+	}
+	.Destacados .Imagen-3 {
+		margin: 0 1em 1em 1em;
+	}
+	.Destacados .Imagen-4 {
+		margin: 0 1em 1em 1em;
+	}
+	footer {
+		font-size: 1.5em;
+		height: auto;
+		margin: -4em 0 0 0;
+	}
+	footer .footer-col1 {
+		height: auto;
+		margin: -1em 0 1em 0;
+		padding: 0;
+		width: 100%;
+	}
+	footer .footer-col2 {
+		font-size: 1em;
+		height: auto;
+		margin: -.2em 0 2em 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+	footer .footer-col3 {
+		height: auto;
+		margin: -1em 0 2em 0;
+		padding: 0;
+		width: 100%;
+	}
+	footer .footer-col3 ul li {
+		font-size: 1.1em;
+		text-align: center;
+	}
+	footer .footer-col4 {
+		height: auto;
+		margin: -1em 0 2em 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 425px) {
+	.Destacados {
+		height: auto;
+		margin: -3em 0 0 0;
+	}
+	.Destacados .Imagen-1, {
+		margin: -1.5em 0 2em 0;
+	}
+	.Destacados .Imagen-2 {
+		margin: 1.5em 0 2em 0;
+	}
+	.Destacados .Imagen-3 {
+		margin: 1.5em 0 2em 0;
+	}
+	.Destacados .Imagen-4 {
+		margin: 1.5em 0 2em 0;
+	}
+	.ImagenesSlider {
+		height: auto;
+		margin: -.7em 0 0 0;
+		width: 100%;
+	}
+	.Imagen-1 {
+		margin: 5em 0 5em 0;
+	}
+	.Menu {
+		margin: 0;
+		padding: 1em 0 1em 0;
+		text-align: center;
+		width: 100%;
+	}
+	.Titulo-col2 {
+		width: 100%;
+	}
+	.Servicios .Servicios-logo {
+		height: auto;
+		margin: -2.5em 0 1em 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Servicios .Servicios-descripcion {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 90%;
+	}
+	.Servicios .Servicios-descripcion a {
+		font-size: .8em;
+		height: auto;
+		margin: 0;
+		padding: .5em;
+		width: 100%;
+	}
+	.Servicios-descripcion article {
+		margin: 0;
+		padding: 1em;
+		text-align: center;
+	}
+	.Titulo {
+		height: auto;
+		margin: -2.7em 0 1em 0;
+	}
+	.Titulo-col2Interno {
+		height: auto;
+		width: 100%;
+	}
+	.Urgencias {
+		height: auto;
+	}
+	footer .footer-col1 {
+		height: auto;
+		margin: -2em 0 1em 0;
+		padding: 0;
+		width: 100%;
+	}
+	footer .footer-col2 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	footer .footer-col3 {
+		height: auto;
+		margin: .5em 0 .1em 0;
+		padding: 0;
+		width: 100%;
+	}
+	footer .footer-col3 ul li {
+		display: inline-block;
+		margin: 0 1em 0 1em;
+	}
+	footer .footer-col4 {
+		height: auto;
+		line-height: 2em;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 375px) {
+	.Destacados {
+		height: auto;
+		margin: -3em 0 0 0;
+	}
+	.Destacados .Imagen-1, {
+		margin: -1.5em 0 2em 0;
+	}
+	.Destacados .Imagen-2 {
+		margin: 1.5em 0 2em 0;
+	}
+	.Destacados .Imagen-3 {
+		margin: 1.5em 0 2em 0;
+	}
+	.Destacados .Imagen-4 {
+		margin: 1.5em 0 2em 0;
+	}
+	.ImagenesSlider {
+		height: auto;
+		margin: -.7em 0 0 0;
+		width: 100%;
+	}
+	.Imagen-1 {
+		margin: 5em 0 5em 0;
+	}
+	.Menu {
+		margin: 0;
+		padding: 1em 0 1em 0;
+		text-align: center;
+		width: 100%;
+	}
+	.Titulo-col2 {
+		width: 100%;
+	}
+	.Servicios .Servicios-logo {
+		height: auto;
+		margin: -2.5em 0 1em 0;
+		padding: 0;
+		width: 100%;
+	}
+	.Servicios .Servicios-descripcion {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 90%;
+	}
+	.Servicios .Servicios-descripcion a {
+		font-size: .8em;
+		height: auto;
+		margin: 0;
+		padding: .5em;
+		width: 100%;
+	}
+	.Servicios-descripcion article {
+		margin: 0;
+		padding: 1em;
+		text-align: center;
+	}
+	.Titulo {
+		height: auto;
+		margin: -2.7em 0 1em 0;
+	}
+	.Titulo-col2Interno {
+		height: auto;
+		width: 100%;
+	}
+	.Urgencias {
+		height: auto;
+	}
+	footer .footer-col1 {
+		height: auto;
+		margin: -2em 0 1em 0;
+		padding: 0;
+		width: 100%;
+	}
+	footer .footer-col2 {
+		height: auto;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	footer .footer-col3 {
+		height: auto;
+		margin: .5em 0 .1em 0;
+		padding: 0;
+		width: 100%;
+	}
+	footer .footer-col3 ul li {
+		display: inline-block;
+		margin: 0 1em 0 1em;
+	}
+	footer .footer-col4 {
+		height: auto;
+		line-height: 2em;
+		width: 100%;
+	}
+}

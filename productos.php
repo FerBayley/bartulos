@@ -62,34 +62,46 @@
 		<section class="Galeria">
 
 			<div class="Galeria-1">
-				<img src="assets/images/accesorios.png" alt="Accesorios">
-				<h2>ACCESORIOS</h2>
+				<a href="http://www.bartulosbazar.com/categorias.php?id_categoria=1&id_marca=&id_material=">
+					<img src="assets/images/accesorios.png" alt="Accesorios">
+					<h2>ACCESORIOS</h2>
+				</a>
 
-				<img src="assets/images/maquinas.png" alt="Maquinaria">
-				<h2>MAQUINARIAS & EQUIPAMIENTO</h2>
+				<a href="http://www.bartulosbazar.com/categorias.php?id_categoria=5&id_marca=&id_material=">
+					<img src="assets/images/maquinas.png" alt="Maquinaria">
+					<h2>MAQUINARIAS & EQUIPAMIENTO</h2>
+				</a>
 			</div> <!-- / Productos-1 -->
 
 			<div class="Galeria-2">
-				<img src="assets/images/cristaleria.png" alt="Cristaleria">
-				<h2>CRISTALERÍA</h2>
+				<a href="http://www.bartulosbazar.com/categorias.php?id_categoria=3&id_marca=&id_material=">
+					<img src="assets/images/cristaleria.png" alt="Cristaleria">
+					<h2>CRISTALERÍA</h2>
+				</a>
 
-				<img src="assets/images/ollas.png" alt="Ollas">
-				<h2>OLLAS & SARTENES</h2>
+				<a href="http://www.bartulosbazar.com/categorias.php?id_categoria=6&id_marca=&id_material=">
+					<img src="assets/images/ollas.png" alt="Ollas">
+					<h2>OLLAS & SARTENES</h2>
+				</a>
 			</div> <!-- / Productos-2 -->
 
 			<div class="Galeria-3">
-				<img src="assets/images/cubiertos.png" alt="Cubiertos">
-				<h2>CUBIERTOS</h2>
+				<a href="http://www.bartulosbazar.com/categorias.php?id_categoria=4&id_marca=&id_material=">
+					<img src="assets/images/cubiertos.png" alt="Cubiertos">
+					<h2>CUBIERTOS</h2>
+				</a>
 				
-				<a href="vajilla.php">
+				<a href="http://www.bartulosbazar.com/categorias.php?id_categoria=7&id_marca=&id_material=">
 					<img src="assets/images/vajilla-catalogo.png" alt="Vajilla">
 					<h2>VAJILLA</h2>
 				</a>
 			</div> <!-- / Productos-3 -->
 
 			<div class="Galeria-4">
-				<img src="assets/images/buffet.png" alt="Buffet">
-				<h2>BUFFET</h2>
+				<a href="http://www.bartulosbazar.com/categorias.php?id_categoria=2&id_marca=&id_material=">
+					<img src="assets/images/buffet.png" alt="Buffet">
+					<h2>BUFFET</h2>
+				</a>
 
 				<img src="assets/images/novedades.png" alt="OFERTAS">
 				<h2>¡OFERTAS!</h2>
